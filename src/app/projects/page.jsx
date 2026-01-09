@@ -152,7 +152,7 @@ export default function ProjectsPage() {
             {projects.map((project) => (
               <article
                 key={project.title}
-                className="relative flex flex-col h-full p-6 overflow-hidden transition-all border shadow-sm group rounded-2xl border-border bg-card hover:-translate-y-1 hover:shadow-xl"
+                className="relative cursor-pointer flex flex-col h-full p-6 overflow-hidden transition-all border shadow-sm group rounded-2xl border-border bg-card hover:-translate-y-1 hover:shadow-xl"
               >
                 <div className="flex items-center justify-between gap-3">
                   <CategoryPill category={project.category} />
@@ -171,7 +171,7 @@ export default function ProjectsPage() {
                   {project.tech.map((item) => (
                     <span
                       key={item}
-                      className="px-3 py-1 text-xs font-semibold rounded-full bg-secondary text-secondary-foreground dark:bg-secondary/50"
+                      className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-50 text-blue-800 border-blue-200 dark:bg-blue-900/40 dark:text-blue-100 dark:border-blue-800/60"
                     >
                       {item}
                     </span>
