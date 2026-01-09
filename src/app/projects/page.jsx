@@ -30,6 +30,7 @@ const projects = [
       { label: "CLS", value: "0.02" },
     ],
     cta: { label: "View Case Study", href: "#" },
+    source: { label: "Source", href: "#" },
     status: "Live",
   },
   {
@@ -43,6 +44,7 @@ const projects = [
       { label: "TTI", value: "1.8s" },
     ],
     cta: { label: "View Case Study", href: "#" },
+    source: { label: "Source", href: "#" },
     status: "Live",
   },
   {
@@ -56,6 +58,7 @@ const projects = [
       { label: "Tenants", value: "50+" },
     ],
     cta: { label: "View Case Study", href: "#" },
+    source: { label: "Source", href: "#" },
     status: "Live",
   },
   {
@@ -69,6 +72,7 @@ const projects = [
       { label: "MTTR", value: "-38%" },
     ],
     cta: { label: "View Case Study", href: "#" },
+    source: { label: "Source", href: "#" },
     status: "In Flight",
   },
   {
@@ -81,7 +85,8 @@ const projects = [
       { label: "Installs", value: "12k/mo" },
       { label: "Coverage", value: "98%" },
     ],
-    cta: { label: "View on GitHub", href: "#" },
+    cta: { label: "View Case Study", href: "#" },
+    source: { label: "Source", href: "#" },
     status: "OSS",
   },
   {
@@ -95,6 +100,7 @@ const projects = [
       { label: "Engagement", value: "+32%" },
     ],
     cta: { label: "View Case Study", href: "#" },
+    source: { label: "Source", href: "#" },
     status: "Live",
   },
 ];
@@ -271,16 +277,6 @@ export default function ProjectsPage() {
                   ))}
                 </div>
 
-                <div className="grid grid-cols-2 gap-3 mt-6">
-                  {project.metrics.map((metric) => (
-                    <MetricBadge
-                      key={metric.label}
-                      label={metric.label}
-                      value={metric.value}
-                    />
-                  ))}
-                </div>
-
                 <div className="flex items-center gap-3 mt-6 text-sm font-semibold text-primary dark:text-white">
                   <a
                     href={project.cta.href}
@@ -289,14 +285,14 @@ export default function ProjectsPage() {
                     {project.cta.label}
                     <ArrowUpRight className="w-4 h-4" />
                   </a>
-                  {project.status === "OSS" && (
-                    <a
-                      href={project.cta.href}
-                      className="inline-flex items-center gap-2 text-muted-foreground hover:text-accent"
-                    >
-                      <Github className="w-4 h-4" /> Source
-                    </a>
-                  )}
+                  <a
+                    href={project.source?.href ?? project.cta.href}
+                    className="inline-flex items-center gap-2 text-muted-foreground hover:text-accent"
+                    aria-label={`${project.title} GitHub source`}
+                  >
+                    <Github className="w-4 h-4" />{" "}
+                    {project.source?.label ?? "Source"}
+                  </a>
                 </div>
 
                 <div className="absolute inset-0 transition-colors border border-transparent pointer-events-none rounded-2xl group-hover:border-accent/60" />
