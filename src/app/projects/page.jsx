@@ -152,7 +152,7 @@ export default function ProjectsPage() {
             {projects.map((project) => (
               <article
                 key={project.title}
-                className="relative cursor-pointer flex flex-col h-full p-6 overflow-hidden transition-all border shadow-sm group rounded-2xl border-border bg-card hover:-translate-y-1 hover:shadow-xl"
+                className="relative cursor-pointer flex flex-col p-6 overflow-hidden transition-all border shadow-sm group rounded-2xl border-border bg-card hover:-translate-y-1 hover:shadow-xl"
               >
                 <div className="flex items-center justify-between gap-3">
                   <CategoryPill category={project.category} />
@@ -177,6 +177,9 @@ export default function ProjectsPage() {
                     </span>
                   ))}
                 </div>
+
+                {/* Spacer to push the CTA to the bottom */}
+                <div className="flex-grow" />
 
                 <div className="flex items-center gap-3 mt-6 text-sm font-semibold text-primary dark:text-white">
                   <a

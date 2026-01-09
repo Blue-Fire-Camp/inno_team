@@ -14,9 +14,9 @@ export const projects = [
   },
   {
     title: "Coffeo - Coffee E-commerce Website",
-    category: "Hackathon",
+    category: "Learning",
     summary:
-      "Coffeo is a coffee e-commerce website built with HTML and CSS. It features a modern and responsive design, showcasing a variety of coffee products with detailed descriptions and pricing information. The website aims to provide an engaging user experience for coffee enthusiasts looking to explore and purchase their favorite brews online.",
+      "Coffeo is a coffee e-commerce website built with HTML and CSS. It features a modern and responsive design, showcasing a variety of coffee products with detailed descriptions and pricing information. ",
     tech: ["HTML", "CSS"],
     cta: {
       label: "View Case Study",
