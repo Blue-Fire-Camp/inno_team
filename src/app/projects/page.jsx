@@ -8,6 +8,7 @@ import {
   Rocket,
   Sparkles,
 } from "lucide-react";
+import { projects } from "../../../libs/data/project";
 
 const projectCategories = [
   "All",
@@ -18,110 +19,10 @@ const projectCategories = [
   "Open Source",
 ];
 
-const projects = [
-  {
-    title: "Atlas Commerce Platform",
-    category: "Ecommerce",
-    summary:
-      "Headless commerce experience with personalized recommendations and lightning-fast checkout.",
-    tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Redis"],
-    metrics: [
-      { label: "Conversion Lift", value: "+21%" },
-      { label: "CLS", value: "0.02" },
-    ],
-    cta: { label: "View Case Study", href: "#" },
-    source: { label: "Source", href: "#" },
-    status: "Live",
-  },
-  {
-    title: "Pulse Mobile Banking",
-    category: "Mobile",
-    summary:
-      "Secure cross-platform banking app with biometric auth and offline-first transactions.",
-    tech: ["React Native", "Expo", "Node.js", "GraphQL", "AWS"],
-    metrics: [
-      { label: "Crash Free", value: "99.98%" },
-      { label: "TTI", value: "1.8s" },
-    ],
-    cta: { label: "View Case Study", href: "#" },
-    source: { label: "Source", href: "#" },
-    status: "Live",
-  },
-  {
-    title: "Nimbus Analytics SaaS",
-    category: "SaaS",
-    summary:
-      "Multi-tenant analytics with real-time dashboards, role-based access, and white-labeling.",
-    tech: ["Next.js", "Prisma", "PostgreSQL", "Kafka", "Tailwind"],
-    metrics: [
-      { label: "Latency", value: "<120ms" },
-      { label: "Tenants", value: "50+" },
-    ],
-    cta: { label: "View Case Study", href: "#" },
-    source: { label: "Source", href: "#" },
-    status: "Live",
-  },
-  {
-    title: "Helix DevOps Portal",
-    category: "Web",
-    summary:
-      "Developer portal with golden paths, pipeline templates, and self-service environments.",
-    tech: ["Next.js", "NestJS", "Docker", "Kubernetes", "GitHub Actions"],
-    metrics: [
-      { label: "Deploy Time", value: "-65%" },
-      { label: "MTTR", value: "-38%" },
-    ],
-    cta: { label: "View Case Study", href: "#" },
-    source: { label: "Source", href: "#" },
-    status: "In Flight",
-  },
-  {
-    title: "Canvas UI Kit",
-    category: "Open Source",
-    summary:
-      "A11y-first React component library with tokens, themes, and motion primitives.",
-    tech: ["React", "TypeScript", "Storybook", "Framer Motion", "Chromatic"],
-    metrics: [
-      { label: "Installs", value: "12k/mo" },
-      { label: "Coverage", value: "98%" },
-    ],
-    cta: { label: "View Case Study", href: "#" },
-    source: { label: "Source", href: "#" },
-    status: "OSS",
-  },
-  {
-    title: "Verde ESG Dashboard",
-    category: "Web",
-    summary:
-      "Sustainability intelligence dashboard with emissions tracking, targets, and reporting.",
-    tech: ["Next.js", "D3.js", "Supabase", "tRPC", "Tailwind"],
-    metrics: [
-      { label: "Data Freshness", value: "15m" },
-      { label: "Engagement", value: "+32%" },
-    ],
-    cta: { label: "View Case Study", href: "#" },
-    source: { label: "Source", href: "#" },
-    status: "Live",
-  },
-];
-
-const badgeByCategory = {
-  Web: "bg-blue-50 text-blue-800 border-blue-200 dark:bg-blue-900/40 dark:text-blue-100 dark:border-blue-800/60",
-  Mobile:
-    "bg-emerald-50 text-emerald-800 border-emerald-200 dark:bg-emerald-900/40 dark:text-emerald-100 dark:border-emerald-800/60",
-  Ecommerce:
-    "bg-amber-50 text-amber-800 border-amber-200 dark:bg-amber-900/40 dark:text-amber-100 dark:border-amber-800/60",
-  SaaS: "bg-purple-50 text-purple-800 border-purple-200 dark:bg-purple-900/40 dark:text-purple-100 dark:border-purple-800/60",
-  "Open Source":
-    "bg-slate-50 text-slate-800 border-slate-200 dark:bg-slate-900/40 dark:text-slate-100 dark:border-slate-800/60",
-  Default: "bg-secondary text-secondary-foreground",
-};
-
 function CategoryPill({ category }) {
-  const style = badgeByCategory[category] || badgeByCategory.Default;
   return (
     <span
-      className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold ${style}`}
+      className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold bg-purple-50 text-purple-800 border-purple-200 dark:bg-purple-900/40 dark:text-purple-100 dark:border-purple-800/60`}
     >
       {category}
     </span>
