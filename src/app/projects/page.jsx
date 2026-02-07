@@ -9,48 +9,70 @@ export const metadata = {
 
 const projects = [
   {
-    title: "EcoStream SaaS Platform",
-    description: "A comprehensive carbon footprint tracking and reporting system for enterprise manufacturers. Built to handle complex data visualizations and regulatory compliance reporting.",
+    title: "PGPoetry",
+    description: "A digital poetry platform for innovative literary expression and community sharing.",
     type: "Web Application",
     icon: <Layout className="h-5 w-5" />,
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "D3.js", "PostgreSQL"],
-    image: "/dark.jpg", // Reusing existing assets
-    liveLink: "#",
-    codeLink: "#",
-    results: "Reduced reporting overhead by 40% for early adopters."
+    tech: ["Next.js", "Tailwind CSS", "Vercel"],
+    image: "/projects/pgpoetry.png",
+    liveLink: "https://pgpoetry.samkiel.dev",
+    codeLink: "https://github.com/samkiell/PGPoetry",
+    results: "Empowering poets with a modern digital stage."
   },
   {
-    title: "SwiftPay Mobile Wallet",
-    description: "Secure, cross-platform fintech solution focusing on instant peer-to-peer transfers and multi-currency management with biometrics integration.",
-    type: "Mobile App",
-    icon: <Smartphone className="h-5 w-5" />,
-    tech: ["React Native", "Node.js", "Redis", "Firebase Auth", "Stripe"],
-    image: "/logo_dark.jpg",
-    liveLink: "#",
-    codeLink: "#",
-    results: "Handled 50k+ transactions in the first month of beta."
-  },
-  {
-    title: "Nexus CRM Orchestrator",
-    description: "Custom internal tool for a global logistics firm to synchronize supply chain data with customer support pipelines in real-time.",
-    type: "Custom Enterprise Solution",
+    title: "Gambo Consultancy",
+    description: "Professional corporate presence for a leading consultancy firm, featuring service showcases and client engagement tools.",
+    type: "Corporate Website",
     icon: <Database className="h-5 w-5" />,
-    tech: ["React", "Express", "GraphQL", "Docker", "AWS Lambda"],
-    image: "/logo_white.jpg",
-    liveLink: "#",
-    codeLink: "#",
-    results: "Centralized 12 disparate data sources into a single dashboard."
+    tech: ["React", "Tailwind CSS", "Framer Motion"],
+    image: "/projects/gambo.png",
+    liveLink: "https://gamboconsultancy.com",
+    codeLink: "https://github.com/samkiell/GamboConsultancy",
+    results: "Elevating brand identity and client trust."
   },
   {
-    title: "Lumina E-Commerce Engine",
-    description: "High-performance headless commerce frontend optimized for Core Web Vitals and SEO, supporting 10,000+ SKU inventory.",
-    type: "E-Commerce",
+    title: "Axile",
+    description: "A dynamic web platform delivering streamlined digital services and user experiences.",
+    type: "Web Application",
     icon: <Layout className="h-5 w-5" />,
-    tech: ["Next.js", "Shopify API", "Framer Motion", "Sanity CMS"],
-    image: "/favicon.jpg",
-    liveLink: "#",
+    tech: ["Next.js", "React", "Tailwind CSS"],
+    image: "/projects/axile.png",
+    liveLink: "https://axile.ng",
     codeLink: "#",
-    results: "Achieved 98+ Lighthouse score on all mobile product pages."
+    results: "Modernizing digital interactions for Nigerian users."
+  },
+  {
+    title: "Interactive Card Form",
+    description: "A real-time credit card detail entry interface with instant validation and visual feedback.",
+    type: "Frontend Challenge",
+    icon: <Code className="h-5 w-5" />,
+    tech: ["React", "Form Validation", "CSS Modules"],
+    image: "/projects/card.png",
+    liveLink: "https://interactive-card-details-form-nine.vercel.app/",
+    codeLink: "#",
+    results: "Seamless user experience for secure data entry."
+  },
+  {
+    title: "Coffeo Website",
+    description: "An immersive landing page for a premium coffee brand, featuring rich visuals and smooth scrolling.",
+    type: "Landing Page",
+    icon: <Layout className="h-5 w-5" />,
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    image: "/projects/coffee.png",
+    liveLink: "https://robotinic17.github.io/Coffeo-Website/",
+    codeLink: "https://github.com/robotinic17/Coffeo-Website",
+    results: "Capturing the essence of artisan coffee culture."
+  },
+  {
+    title: "CampNet",
+    description: "A comprehensive networking platform designed for campus communities to connect and collaborate.",
+    type: "Community Platform",
+    icon: <Smartphone className="h-5 w-5" />,
+    tech: ["React", "Node.js", "MongoDB"],
+    image: "/projects/campus.png",
+    liveLink: "https://campnetng.netlify.app/",
+    codeLink: "#",
+    results: "Bridging communication gaps in academic environments."
   }
 ];
 
