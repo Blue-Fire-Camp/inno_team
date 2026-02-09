@@ -7,74 +7,19 @@ export const metadata = {
   description: "Explore ByteWave's portfolio of professional web development projects and custom software solutions. We deliver high-performance applications that drive business growth.",
 };
 
-const projects = [
-  {
-    title: "PGPoetry",
-    description: "A digital poetry platform for innovative literary expression and community sharing.",
-    type: "Web Application",
-    icon: <Layout className="h-5 w-5" />,
-    tech: ["Next.js", "Tailwind CSS", "Vercel"],
-    image: "/projects/pgpoetry.png",
-    liveLink: "https://pgpoetry.samkiel.dev",
-    codeLink: "https://github.com/samkiell/PGPoetry",
-    results: "Empowering poets with a modern digital stage."
-  },
-  {
-    title: "Gambo Consultancy",
-    description: "Professional corporate presence for a leading consultancy firm, featuring service showcases and client engagement tools.",
-    type: "Corporate Website",
-    icon: <Database className="h-5 w-5" />,
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
-    image: "/projects/gambo.png",
-    liveLink: "https://gamboconsultancy.com",
-    codeLink: "https://github.com/samkiell/GamboConsultancy",
-    results: "Elevating brand identity and client trust."
-  },
-  {
-    title: "Axile",
-    description: "A dynamic web platform delivering streamlined digital services and user experiences.",
-    type: "Web Application",
-    icon: <Layout className="h-5 w-5" />,
-    tech: ["Next.js", "React", "Tailwind CSS"],
-    image: "/projects/axile.png",
-    liveLink: "https://axile.ng",
-    codeLink: "#",
-    results: "Modernizing digital interactions for Nigerian users."
-  },
-  {
-    title: "Interactive Card Form",
-    description: "A real-time credit card detail entry interface with instant validation and visual feedback.",
-    type: "Frontend Challenge",
-    icon: <Code className="h-5 w-5" />,
-    tech: ["React", "Form Validation", "CSS Modules"],
-    image: "/projects/card.png",
-    liveLink: "https://interactive-card-details-form-nine.vercel.app/",
-    codeLink: "#",
-    results: "Seamless user experience for secure data entry."
-  },
-  {
-    title: "Coffeo Website",
-    description: "An immersive landing page for a premium coffee brand, featuring rich visuals and smooth scrolling.",
-    type: "Landing Page",
-    icon: <Layout className="h-5 w-5" />,
-    tech: ["HTML5", "CSS3", "JavaScript"],
-    image: "/projects/coffee.png",
-    liveLink: "https://robotinic17.github.io/Coffeo-Website/",
-    codeLink: "https://github.com/robotinic17/Coffeo-Website",
-    results: "Capturing the essence of artisan coffee culture."
-  },
-  {
-    title: "CampNet",
-    description: "A comprehensive networking platform designed for campus communities to connect and collaborate.",
-    type: "Community Platform",
-    icon: <Smartphone className="h-5 w-5" />,
-    tech: ["React", "Node.js", "MongoDB"],
-    image: "/projects/campus.png",
-    liveLink: "https://campnetng.netlify.app/",
-    codeLink: "#",
-    results: "Bridging communication gaps in academic environments."
-  }
-];
+import { projects as projectData } from "../../../libs/data/project";
+
+const iconMap = {
+  Layout: <Layout className="h-5 w-5" />,
+  Database: <Database className="h-5 w-5" />,
+  Code: <Code className="h-5 w-5" />,
+  Smartphone: <Smartphone className="h-5 w-5" />,
+};
+
+const projects = projectData.map(p => ({
+  ...p,
+  icon: iconMap[p.iconName] || <Code className="h-5 w-5" />
+}));
 
 export default function ProjectsPage() {
   return (
