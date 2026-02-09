@@ -19,9 +19,9 @@ export default function AboutPage() {
   };
 
   return (
-    <div className="min-h-screen pt-20 pb-16">
+    <div className="min-h-screen pt-12 pb-16">
       {/* Hero Section */}
-      <section className="container mx-auto px-6 py-20 text-center">
+      <section className="container mx-auto px-6 pt-10 pb-20 text-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}

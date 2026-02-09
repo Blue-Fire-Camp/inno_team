@@ -189,7 +189,7 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-background via-background to-muted/30 sm:py-28">
+      <section className="pt-12 pb-20 bg-gradient-to-br from-background via-background to-muted/30 sm:pt-16 sm:pb-28">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tight text-primary dark:text-white sm:text-5xl lg:text-6xl">

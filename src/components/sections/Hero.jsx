@@ -4,7 +4,7 @@ import { Mail, ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-background py-20 lg:py-32">
+    <section className="relative overflow-hidden bg-background pt-12 pb-20 lg:pt-16 lg:pb-32">
       {/* Background decoration */}
       <div className="absolute inset-0 z-0">
         <div className="absolute -left-[10%] -top-[10%] h-[40%] w-[40%] rounded-full bg-primary/5 blur-3xl"></div>

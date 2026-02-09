@@ -80,7 +80,7 @@ export default function ProjectsPage() {
   return (
     <div className="flex min-h-screen flex-col bg-background">
       {/* Hero Section */}
-      <section className="relative overflow-hidden border-b bg-muted/30 py-20 lg:py-32">
+      <section className="relative overflow-hidden border-b bg-muted/30 pt-12 pb-20 lg:pt-16 lg:pb-32">
         <div className="absolute inset-0 -z-10">
           <div className="absolute left-[10%] top-[10%] h-[30%] w-[30%] rounded-full bg-primary/5 blur-3xl"></div>
           <div className="absolute right-[10%] bottom-[10%] h-[30%] w-[30%] rounded-full bg-accent/5 blur-3xl"></div>
