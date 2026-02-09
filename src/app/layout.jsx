@@ -8,12 +8,68 @@ import { GA_MEASUREMENT_ID } from "../../libs/config";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const baseUrl = "https://bytewave.samkiel.dev"; // Replace with actual production domain
+
 export const metadata = {
-  title: "ByteWave | Premium Software Development Services",
-  description:
-    "ByteWave provides fast, accessible, long-term, affordable, high-quality modern web and mobile application development services.",
+  metadataBase: new URL(baseUrl),
+  title: {
+    default: "ByteWave | Student-Led Software Engineering",
+    template: "%s | ByteWave"
+  },
+  description: "ByteWave is a student-led collective focused on building solid, usable digital products through engineering judgment and collaborative problem-solving.",
+  keywords: [
+    "ByteWave",
+    "software development",
+    "student-led startup",
+    "web development",
+    "product engineering",
+    "digital solutions",
+    "mobile application development",
+    "engineering mindset"
+  ],
+  authors: [{ name: "ByteWave Team" }],
+  creator: "ByteWave Team",
+  publisher: "ByteWave",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: baseUrl,
+    siteName: "ByteWave",
+    title: "ByteWave | Student-Led Software Engineering",
+    description: "Turning rough ideas into usable digital products through craftsmanship and collaboration.",
+    images: [
+      {
+        url: "/og-image.jpg", // Replace with actual OG image path
+        width: 1200,
+        height: 630,
+        alt: "ByteWave - Engineering Judgment in an Automated World",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ByteWave | Student-Led Software Engineering",
+    description: "Building usable digital products through engineering judgment and collaboration.",
+    images: ["/og-image.jpg"], // Replace with actual Twitter image path
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: {
     icon: "/favicon.jpg",
+    shortcut: "/favicon.jpg",
+    apple: "/favicon.jpg",
   },
 };
 
