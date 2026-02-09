@@ -7,7 +7,7 @@ import InquiryForm from '../../components/forms/InquiryForm';
 
 export default function ContactPage() {
   return (
-    <div className="container mx-auto px-4 py-24">
+    <div className="container mx-auto px-4 pt-12 pb-24">
       <h1 className="text-4xl font-bold text-center">Get In Touch</h1>
 
       <p className="mt-4 text-muted-foreground max-w-2xl mx-auto text-center">
