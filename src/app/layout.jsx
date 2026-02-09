@@ -29,7 +29,7 @@ export const metadata = {
   ],
   authors: [{ name: "ByteWave Team" }],
   creator: "ByteWave Team",
-  publisher: "ByteWave", "samkiel",
+  publisher: "ByteWave",
   alternates: {
     canonical: "/",
   },
