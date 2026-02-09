@@ -22,7 +22,7 @@ const Footer = () => {
               <span className="text-xl font-bold tracking-tight">ByteWave</span>
             </Link>
             <p className="mt-4 max-w-xs text-sm text-muted-foreground">
-              Fast, accessible, and high-quality software development services for startups and businesses globally.
+              Engineering judgment and craftsmanship for startups and businesses. Built by students, focused on true problem solving.
             </p>
             <div className="mt-6 flex space-x-4">
               <a
