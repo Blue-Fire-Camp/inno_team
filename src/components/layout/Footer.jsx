@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Github, Mail } from "lucide-react";
+import { Github, Mail, Twitter } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -32,6 +32,14 @@ const Footer = () => {
                 className="text-muted-foreground hover:text-accent transition-colors"
               >
                 <Github size={20} />
+              </a>
+              <a
+                href="https://x.com/BytewaveTeams"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-accent transition-colors"
+              >
+                <Twitter size={20} />
               </a>
               <a
                 href="mailto:bytewaveteams@gmail.com"

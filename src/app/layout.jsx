@@ -54,6 +54,8 @@ export const metadata = {
     title: "ByteWave | Student-Led Software Engineering",
     description: "Building usable digital products through engineering judgment and collaboration.",
     images: ["/og-image.jpg"], // Replace with actual Twitter image path
+    creator: "@BytewaveTeams",
+    site: "@BytewaveTeams",
   },
   robots: {
     index: true,
