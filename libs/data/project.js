@@ -24,18 +24,6 @@ export const projects = [
     results: "Elevating brand identity and client trust.",
   },
   {
-    title: "Axile",
-    description:
-      "A dynamic web platform delivering streamlined digital services and user experiences.",
-    type: "Web Application",
-    iconName: "Layout",
-    tech: ["Next.js", "Tailwind CSS", "Framer", "shadcn/ui", "Python"],
-    image: "/projects/axile.png",
-    liveLink: "https://axile.ng",
-    codeLink: "#",
-    results: "Modernizing digital interactions for Nigerian users.",
-  },
-  {
     title: "Interactive Card Form",
     description:
       "A real-time credit card detail entry interface with instant validation and visual feedback.",
