@@ -25,7 +25,7 @@ const Footer = () => {
               Engineering judgment and craftsmanship for talent teams and businesses. Built by professionals, focused on true problem solving.
             </p>
             <div className="mt-6 flex space-x-4">
-              <a
+              {/* <a
                 href="https://github.com/InnoTechteam"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -46,7 +46,13 @@ const Footer = () => {
                 className="text-muted-foreground hover:text-accent transition-colors"
               >
                 <Mail size={20} />
-              </a>
+              </a> */}
+              <address className="mt-2 flex flex-col space-y-1 text-sm">
+                <span className="text-muted-foreground">Mandaluyong, Philippines</span>
+                <span className="text-muted-foreground">Tijuana, Mexico</span>
+              </address>
+              
+
             </div>
           </div>
 

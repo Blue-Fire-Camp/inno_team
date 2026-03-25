@@ -84,6 +84,13 @@ export default function ProjectsPage() {
                   <div className="absolute left-4 top-4 rounded-full bg-opacity-70 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-primary/70 dark:text-primary/90 backdrop-blur-sm">
                     {project.type}
                   </div>
+                  {/* View Live Button - Top Right */}
+                  <Link
+                    href={project.liveLink}
+                    className="absolute top-4 right-4 rounded-full bg-red-500 backdrop-blur-sm p-3 text-white transition-all hover:bg-red-600 hover:scale-150 shadow-lg"
+                  >
+                    <ExternalLink className="h-5 w-5" />
+                  </Link>
                 </div>
 
                 {/* Content */}
@@ -109,24 +116,6 @@ export default function ProjectsPage() {
                         {t}
                       </span>
                     ))}
-                  </div>
-
-                  {/* Actions */}
-                  <div className="mt-8 flex items-center gap-4">
-                    <Link
-                      href={project.liveLink}
-                      className="inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-bold text-primary-foreground transition-colors hover:bg-primary/90 dark:bg-accent dark:hover:bg-accent/90"
-                    >
-                      <ExternalLink className="h-4 w-4" />
-                      View Live
-                    </Link>
-                    <Link
-                      href={project.codeLink}
-                      className="inline-flex flex-1 items-center justify-center gap-2 rounded-lg border bg-background px-4 py-2 text-sm font-bold text-primary transition-colors hover:bg-muted dark:text-white"
-                    >
-                      <Github className="h-4 w-4" />
-                      View Code
-                    </Link>
                   </div>
                 </div>
               </article>

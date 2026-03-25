@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { Mail, ArrowRight } from "lucide-react";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -35,7 +38,39 @@ const Hero = () => {
               </a>
             </div>
           </div>
-
+          <div className="relative h-[300px] w-full max-w-[500px] lg:h-[500px]">
+            <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-blue  opacity-10 blur-2xl"></div>
+            <motion.div 
+              className="relative h-full w-full overflow-hidden rounded-2xl bg-card/50 backdrop-blur"
+              animate={{
+                y: [0, -15, 0],
+              }}
+              transition={{
+                duration: 4,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+              whileHover={{
+                scale: 1.05,
+                rotate: [0, 3, -3, 0],
+                transition: {
+                  duration: 0.6,
+                  rotate: {
+                    duration: 0.4,
+                    repeat: 1,
+                  }
+                }
+              }}
+            >
+              <Image
+                src="/inno_logo.png"
+                alt="Modern Software Development"
+                fill
+                className="object-cover"
+                priority
+              />
+            </motion.div>
+          </div>
    
         </div>
       </div>
