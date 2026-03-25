@@ -81,7 +81,7 @@ export default function ProjectsPage() {
                       " {project.results} "
                     </p>
                   </div>
-                  <div className="absolute left-4 top-4 rounded-full bg-background/90 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-primary backdrop-blur-sm">
+                  <div className="absolute left-4 top-4 rounded-full bg-opacity-70 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-primary/70 dark:text-primary/90 backdrop-blur-sm">
                     {project.type}
                   </div>
                 </div>

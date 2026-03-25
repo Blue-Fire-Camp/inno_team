@@ -36,18 +36,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="relative h-[300px] w-full max-w-[500px] lg:h-[500px]">
-            <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-primary to-accent opacity-10 blur-2xl"></div>
-            <div className="relative h-full w-full overflow-hidden rounded-2xl border bg-card/50 backdrop-blur">
-              {/* <Image
-                src="/dark.jpg"
-                alt="Modern Software Development"
-                fill
-                className="object-cover"
-                priority
-              /> */}
-            </div>
-          </div>
+   
         </div>
       </div>
     </section>
