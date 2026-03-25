@@ -23,11 +23,11 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#0a192f", // Dark blue
+          DEFAULT: "#0a192f", // Original dark blue
           foreground: "#ffffff",
         },
         accent: {
-          DEFAULT: "#e11d48", // Red
+          DEFAULT: "#e11d48", // Original red accent
           foreground: "#ffffff",
         },
         muted: {

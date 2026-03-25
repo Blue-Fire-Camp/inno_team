@@ -74,7 +74,7 @@ Roles and tasks assigned by **[@samkiell](https://github.com/samkiell)**.
 - Server API: `POST /api/inquiry` — validates requests with Zod and sends emails via SendGrid.
 - Environment variables (add to your deployment or `.env`):
   - `SENDGRID_API_KEY` — **required** to enable email sending.
-  - `CONTACT_TO_EMAIL` — recipient address (defaults to `bytewaveteams@gmail.com`).
+  - `CONTACT_TO_EMAIL` — recipient address for contact form submissions.
   - `CONTACT_FROM_EMAIL` — sender address (use a verified SendGrid sender).
 
 If `SENDGRID_API_KEY` is missing, the API responds with 503 and the form shows a friendly fallback instructing users to email directly.

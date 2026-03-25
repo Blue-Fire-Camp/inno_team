@@ -11,6 +11,10 @@ import {
   Database,
   Cloud,
   TestTube,
+  Cpu,
+  GitBranch,
+  Package,
+  Terminal,
 } from "lucide-react";
 
 const services = [
@@ -62,25 +66,25 @@ const services = [
   },
   {
     id: "ui-ux",
-    title: "UI/UX Design & Prototyping",
+    title: "AI Full Stack Development",
     icon: Palette,
     description:
-      "Crafting intuitive, accessible, and visually stunning interfaces that delight users and drive engagement.",
+      "Building end-to-end AI-powered applications from LLM integration and agentic workflows to custom model development and RAG implementations.",
     technologies: [
-      "Figma",
-      "Adobe XD",
-      "Framer Motion",
-      "Design Systems",
-      "Accessibility Standards",
-      "User Research Tools",
+      "Large Language Models (LLM)",
+      "Agentic Workflow Frameworks",
+      "Custom Model Training",
+      "Retrieval-Augmented Generation (RAG)",
+      "Vector Databases",
+      "MLOps Pipelines",
     ],
     features: [
-      "Wireframing & Prototyping",
-      "User Journey Mapping",
-      "Responsive Design",
-      "Design System Creation",
-      "Usability Testing",
-      "Brand Identity",
+      "LLM Integration & Fine-tuning",
+      "Autonomous Agent Development",
+      "Custom Model Architecture",
+      "RAG System Implementation",
+      "AI Workflow Orchestration",
+      "Scalable AI Infrastructure",
     ],
   },
   {
@@ -143,6 +147,90 @@ const processSteps = [
     description:
       "We handle seamless deployment to production and provide ongoing maintenance, updates, and technical support.",
     icon: Zap,
+  },
+];
+
+const techStack = [
+  {
+    category: "Programming Languages",
+    icon: Code2,
+    items: [
+      { name: "JavaScript", logo: "https://cdn.simpleicons.org/javascript" },
+      { name: "TypeScript", logo: "https://cdn.simpleicons.org/typescript" },
+      { name: "Python", logo: "https://cdn.simpleicons.org/python" },
+      { name: "Ruby", logo: "https://cdn.simpleicons.org/ruby" },
+      { name: "PHP", logo: "https://cdn.simpleicons.org/php" },
+      { name: "Java", logo: "https://cdn.simpleicons.org/openjdk/white" }, // Java/OpenJDK
+      { name: "Go", logo: "https://cdn.simpleicons.org/go" },
+      { name: "Swift", logo: "https://cdn.simpleicons.org/swift" },
+      { name: "Kotlin", logo: "https://cdn.simpleicons.org/kotlin" },
+
+
+    ],
+  },
+  {
+    category: "Frontend Frameworks",
+    icon: Globe,
+    items: [
+      { name: "React.js", logo: "https://cdn.simpleicons.org/react" },
+      { name: "Next.js", logo: "https://cdn.simpleicons.org/nextdotjs" },
+      { name: "Vue.js", logo: "https://cdn.simpleicons.org/vuedotjs" },
+      { name: "Angular", logo: "https://cdn.simpleicons.org/angular" },
+      { name: "Svelte", logo: "https://cdn.simpleicons.org/svelte" },
+      { name: "Tailwind CSS", logo: "https://cdn.simpleicons.org/tailwindcss" },
+      { name: "React Native", logo: "https://cdn.worldvectorlogo.com/logos/react-native-1.svg" }, // Represented by React Native
+      { name: "Flutter", logo: "https://cdn.simpleicons.org/flutter" }, // Represented by Flutter
+    ],
+  },
+  {
+    category: "Backend & APIs",
+    icon: Database,
+    items: [
+      { name: "Node.js", logo: "https://cdn.simpleicons.org/nodedotjs" },
+      { name: "Express.js", logo: "https://cdn.simpleicons.org/express/white" },
+      { name: "FastAPI", logo: "https://cdn.simpleicons.org/fastapi" },
+      { name: "Django", logo: "https://cdn.simpleicons.org/django" },
+      { name: "GraphQL", logo: "https://cdn.simpleicons.org/graphql" },
+      { name: "REST APIs", logo: "https://cdn.simpleicons.org/postman" },
+      { name: "NestJS", logo: "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/nestjs/default.svg" },
+      { name: "Spring Boot", logo: "https://cdn.simpleicons.org/springboot" },
+    ],
+  },
+  {
+    category: "Databases & Storage",
+    icon: Cloud,
+    items: [
+      { name: "PostgreSQL", logo: "https://cdn.simpleicons.org/postgresql" },
+      { name: "MongoDB", logo: "https://cdn.simpleicons.org/mongodb" },
+      { name: "Redis", logo: "https://cdn.simpleicons.org/redis" },
+      { name: "MySQL", logo: "https://cdn.simpleicons.org/mysql" },
+      { name: "Firebase", logo: "https://cdn.simpleicons.org/firebase" },
+      { name: "Supabase", logo: "https://cdn.simpleicons.org/supabase" },
+    ],
+  },
+  {
+    category: "DevOps & Tools",
+    icon: Terminal,
+    items: [
+      { name: "Git", logo: "https://cdn.simpleicons.org/git" },
+      { name: "Docker", logo: "https://cdn.simpleicons.org/docker" },
+      { name: "Kubernetes", logo: "https://cdn.simpleicons.org/kubernetes" },
+      { name: "AWS", logo: "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/aws/default.svg" },
+      { name: "CI/CD", logo: "https://cdn.simpleicons.org/githubactions" }, // Represented by GitHub Actions
+      { name: "Linux", logo: "https://cdn.simpleicons.org/linux" },
+    ],
+  },
+  {
+    category: "AI & Machine Learning",
+    icon: Cpu,
+    items: [
+      { name: "OpenAI APIs", logo: "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/openai/default.svg" },
+      { name: "LangChain", logo: "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/langgraph-langchain/default.svg" },
+      { name: "TensorFlow", logo: "https://skillicons.dev/icons?i=tensorflow" },
+      { name: "PyTorch", logo: "https://skillicons.dev/icons?i=pytorch" },
+      { name: "Hugging Face", logo: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
+      { name: "Gemini", logo: "https://svgl.app/library/gemini.svg" },
+    ],
   },
 ];
 
@@ -281,6 +369,65 @@ export default function ServicesPage() {
                         </li>
                       ))}
                     </ul>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Tech Stack Section */}
+      <section className="py-20 sm:py-24 bg-background">
+        <div className="container px-4 mx-auto sm:px-6 lg:px-8">
+          <div className="max-w-2xl mx-auto mb-16 text-center">
+            <h2 className="text-base font-semibold leading-7 tracking-widest uppercase text-accent">
+              Tech Stack
+            </h2>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-primary dark:text-white sm:text-4xl">
+              Cutting-Edge Technologies
+            </p>
+            <p className="mt-6 text-lg leading-8 text-muted-foreground">
+              Our team masters modern tools and frameworks to deliver exceptional digital solutions.
+            </p>
+          </div>
+
+          <div className="grid gap-8 lg:grid-cols-2 xl:grid-cols-3">
+            {techStack.map((category, index) => (
+              <div
+                key={category.category}
+                className="p-6 transition-all border group rounded-2xl border-border bg-card hover:shadow-xl hover:border-accent/50 dark:hover:border-accent"
+              >
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="p-2 rounded-lg bg-accent/10 text-accent dark:bg-accent/20">
+                    <category.icon className="h-6 w-6" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-primary dark:text-white">
+                    {category.category}
+                  </h3>
+                </div>
+
+                <div className="space-y-6">
+                  <div className="flex flex-wrap gap-3">
+                    {category.items.map((tech) => (
+                      <div
+                        key={tech.name}
+                        className="flex items-center gap-2 px-3 py-2 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors group"
+                      >
+                        {tech.logo ? (
+                          <img 
+                            src={tech.logo} 
+                            alt={tech.name}
+                            className="w-5 h-5 group-hover:scale-110 transition-transform"
+                          />
+                        ) : (
+                          <div className="w-5 h-5 bg-accent/20 rounded group-hover:scale-110 transition-transform" />
+                        )}
+                        <span className="text-sm font-medium text-primary dark:text-white">
+                          {tech.name}
+                        </span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>

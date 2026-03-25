@@ -18,7 +18,7 @@ const Hero = () => {
               Engineering Future-Ready <span className="text-accent">Digital Experiences</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              ByteWave delivers fast, high-quality, and affordable web and mobile development services. We scale your ideas into long-term digital solutions.
+              InnoTech delivers fast, high-quality, and affordable web and mobile development services. We scale your ideas into long-term digital solutions.
             </p>
             <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
               <Link
@@ -39,13 +39,13 @@ const Hero = () => {
           <div className="relative h-[300px] w-full max-w-[500px] lg:h-[500px]">
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-primary to-accent opacity-10 blur-2xl"></div>
             <div className="relative h-full w-full overflow-hidden rounded-2xl border bg-card/50 backdrop-blur">
-              <Image
+              {/* <Image
                 src="/dark.jpg"
                 alt="Modern Software Development"
                 fill
                 className="object-cover"
                 priority
-              />
+              /> */}
             </div>
           </div>
         </div>

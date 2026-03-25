@@ -8,28 +8,28 @@ import { GA_MEASUREMENT_ID } from "../../libs/config";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const baseUrl = "https://bytewave.samkiel.dev"; // Replace with actual production domain
+const baseUrl = "https://innotech.samkiel.dev"; // Replace with actual production domain
 
 export const metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "ByteWave | Student-Led Software Engineering",
-    template: "%s | ByteWave"
+    default: "InnoTech | Global Remote Software Engineering",
+    template: "%s | InnoTech"
   },
-  description: "ByteWave is a student-led collective focused on building solid, usable digital products through engineering judgment and collaborative problem-solving.",
+  description: "InnoTech is a global remote collective focused on building solid, usable digital products through engineering judgment and collaborative problem-solving.",
   keywords: [
-    "ByteWave",
+    "InnoTech",
     "software development",
-    "student-led startup",
+    "global remote talent team",
     "web development",
     "product engineering",
     "digital solutions",
     "mobile application development",
     "engineering mindset"
   ],
-  authors: [{ name: "ByteWave Team" }],
-  creator: "ByteWave Team",
-  publisher: "ByteWave",
+  authors: [{ name: "InnoTech Team" }],
+  creator: "InnoTech Team",
+  publisher: "InnoTech",
   alternates: {
     canonical: "/",
   },
@@ -37,25 +37,25 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: baseUrl,
-    siteName: "ByteWave",
-    title: "ByteWave | Student-Led Software Engineering",
+    siteName: "InnoTech",
+    title: "InnoTech | Global Remote Software Engineering",
     description: "Turning rough ideas into usable digital products through craftsmanship and collaboration.",
     images: [
       {
         url: "/og-image.jpg", // Replace with actual OG image path
         width: 1200,
         height: 630,
-        alt: "ByteWave - Engineering Judgment in an Automated World",
+        alt: "InnoTech - Engineering Judgment in an Automated World",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ByteWave | Student-Led Software Engineering",
+    title: "InnoTech | Global Remote Software Engineering",
     description: "Building usable digital products through engineering judgment and collaboration.",
     images: ["/og-image.jpg"], // Replace with actual Twitter image path
-    creator: "@BytewaveTeams",
-    site: "@BytewaveTeams",
+    creator: "@InnoTechTeams",
+    site: "@InnoTechTeams",
   },
   robots: {
     index: true,

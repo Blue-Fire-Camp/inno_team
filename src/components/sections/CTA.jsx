@@ -5,7 +5,7 @@ const CTA = () => {
   return (
     <section className="bg-background py-24 sm:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative isolate overflow-hidden bg-bytewave-primary px-6 py-24 text-center shadow-2xl rounded-3xl sm:px-16">
+        <div className="relative isolate overflow-hidden bg-innotech-primary px-6 py-24 text-center shadow-2xl rounded-3xl sm:px-16">
           <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Ready to build the future of your business?
           </h2>

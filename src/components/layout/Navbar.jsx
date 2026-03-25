@@ -31,14 +31,14 @@ const Navbar = () => {
               <div className="relative h-10 w-10 overflow-hidden rounded-md">
                 <Image
                   src="/favicon.jpg"
-                  alt="ByteWave Logo"
+                  alt="InnoTech Logo"
                   fill
                   className="object-contain"
                   priority
                 />
               </div>
               <span className="text-xl font-bold tracking-tight text-primary dark:text-white">
-                ByteWave
+                InnoTech
               </span>
             </Link>
           </div>

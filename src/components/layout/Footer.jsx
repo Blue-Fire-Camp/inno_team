@@ -14,19 +14,19 @@ const Footer = () => {
               <div className="relative h-8 w-8 overflow-hidden rounded-md">
                 <Image
                   src="/favicon.jpg"
-                  alt="ByteWave Logo"
+                  alt="InnoTech Logo"
                   fill
                   className="object-contain"
                 />
               </div>
-              <span className="text-xl font-bold tracking-tight">ByteWave</span>
+              <span className="text-xl font-bold tracking-tight">InnoTech</span>
             </Link>
             <p className="mt-4 max-w-xs text-sm text-muted-foreground">
-              Engineering judgment and craftsmanship for startups and businesses. Built by students, focused on true problem solving.
+              Engineering judgment and craftsmanship for talent teams and businesses. Built by professionals, focused on true problem solving.
             </p>
             <div className="mt-6 flex space-x-4">
               <a
-                href="https://github.com/Bytewaveteam"
+                href="https://github.com/InnoTechteam"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors"
@@ -34,7 +34,7 @@ const Footer = () => {
                 <Github size={20} />
               </a>
               <a
-                href="https://x.com/BytewaveTeams"
+                href="https://x.com/InnoTechTeams"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors"
@@ -42,7 +42,7 @@ const Footer = () => {
                 <Twitter size={20} />
               </a>
               <a
-                href="mailto:bytewaveteams@gmail.com"
+                href="mailto:innotechteams@gmail.com"
                 className="text-muted-foreground hover:text-accent transition-colors"
               >
                 <Mail size={20} />
@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
         <div className="mt-12 border-t pt-8 text-center md:flex md:items-center md:justify-between">
           <p className="text-xs text-muted-foreground">
-            &copy; {currentYear} ByteWave. All rights reserved.
+            &copy; {currentYear} InnoTech. All rights reserved.
           </p>
           <p className="mt-4 text-xs text-muted-foreground md:mt-0">
             Designed for performance and scalability.

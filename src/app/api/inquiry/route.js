@@ -17,7 +17,7 @@ export async function POST(req) {
     const data = InquirySchema.parse(body);
 
     const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
-    const CONTACT_TO_EMAIL = process.env.CONTACT_TO_EMAIL || "bytewaveteams@gmail.com";
+    const CONTACT_TO_EMAIL = process.env.CONTACT_TO_EMAIL;
     const CONTACT_FROM_EMAIL = process.env.CONTACT_FROM_EMAIL || CONTACT_TO_EMAIL;
 
     if (!SENDGRID_API_KEY) {

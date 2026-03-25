@@ -29,10 +29,10 @@ export default function AboutPage() {
           className="max-w-4xl mx-auto"
         >
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
-            Human engineering in an <span className="text-bytewave-accent">automated world.</span>
+            Human engineering in an <span className="text-innotech-accent">automated world.</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-            We don't just generate code; we solve problems. ByteWave is a student-led collective focused on turning rough ideas into solid, usable products through collaboration and craftsmanship.
+            We don't just generate code; we solve problems. InnoTech is a global remote collective focused on turning rough ideas into solid, usable products through collaboration and craftsmanship.
           </p>
         </motion.div>
       </section>
@@ -50,13 +50,13 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">How it started</h2>
               <div className="space-y-4 text-lg text-muted-foreground">
                 <p>
-                  ByteWave began when one student approached another with a simple idea: why not form a small team and build things the right way? 
+                  InnoTech began when a group of remote developers connected with a simple idea: why not form a global team and build things the right way? 
                 </p>
                 <p>
                   The goal wasn't just to make money, but to collaborate, take on real client jobs, and share earnings fairly while building products that actually matter.
                 </p>
                 <p>
-                  What started as a conversation between two peers quickly grew. We added more students, expanded our reach, and evolved into the organic, focused team we are today.
+                  What started as a conversation between remote peers quickly grew. We added more global talent, expanded our reach, and evolved into the organic, focused team we are today.
                 </p>
               </div>
             </motion.div>
@@ -67,12 +67,12 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
               className="bg-background border rounded-3xl p-8 shadow-xl relative overflow-hidden group"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-bytewave-accent/5 rounded-full -mr-16 -mt-16 group-hover:bg-bytewave-accent/10 transition-colors" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-innotech-accent/5 rounded-full -mr-16 -mt-16 group-hover:bg-innotech-accent/10 transition-colors" />
               <div className="relative z-10">
-                <Users2 className="w-12 h-12 text-bytewave-accent mb-6" />
-                <h3 className="text-2xl font-semibold mb-2">Student Led</h3>
+                <Users2 className="w-12 h-12 text-innotech-accent mb-6" />
+                <h3 className="text-2xl font-semibold mb-2">Global Remote</h3>
                 <p className="text-muted-foreground">
-                  Every person at ByteWave is a student. We are learners by nature and engineers by choice, bringing a fresh perspective and immense energy to every challenge.
+                  Every person at InnoTech is part of a distributed team. We are collaborators by nature and engineers by choice, bringing diverse perspectives and immense energy to every challenge.
                 </p>
               </div>
             </motion.div>
@@ -119,9 +119,9 @@ export default function AboutPage() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.2 }}
-                className="p-8 border rounded-2xl hover:border-bytewave-accent/50 transition-colors"
+                className="p-8 border rounded-2xl hover:border-innotech-accent/50 transition-colors"
               >
-                <div className="text-bytewave-accent mb-4">{feature.icon}</div>
+                <div className="text-innotech-accent mb-4">{feature.icon}</div>
                 <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
                 <p className="text-muted-foreground">{feature.description}</p>
               </motion.div>
@@ -131,7 +131,7 @@ export default function AboutPage() {
       </section>
 
       {/* Audience & Positioning */}
-      <section className="bg-bytewave-primary text-white py-24">
+      <section className="bg-innotech-primary text-white py-24">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="flex-1">
@@ -143,9 +143,9 @@ export default function AboutPage() {
             <div className="flex-1 bg-white/10 backdrop-blur-md p-8 rounded-3xl border border-white/20">
               <h3 className="text-2xl font-bold mb-4">Honest Positioning</h3>
               <p className="text-gray-300 mb-6">
-                We believe in transparency. ByteWave is not an official institution or a registered corporation yet. We aren't backed by massive VCs or endorsed by major brands.
+                We believe in transparency. InnoTech is not an official institution or a registered corporation yet. We aren't backed by massive VCs or endorsed by major brands.
               </p>
-              <div className="flex items-center gap-2 text-bytewave-accent font-semibold">
+              <div className="flex items-center gap-2 text-innotech-accent font-semibold">
                 <Rocket className="w-5 h-5" />
                 <span>Growing through skill, not hype.</span>
               </div>
@@ -159,7 +159,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-6 max-w-3xl">
           <h2 className="text-3xl font-bold mb-6">Looking ahead</h2>
           <p className="text-lg text-muted-foreground mb-10">
-            ByteWave is in its early stages, and we're currently launching. Our focus remains grounded: building, growing, and constantly improving our engineering craft. We're excited to see where this journey takes us and the products we'll build along the way.
+            InnoTech is in its early stages, and we're currently launching. Our focus remains grounded: building, growing, and constantly improving our engineering craft. We're excited to see where this journey takes us and the products we'll build along the way.
           </p>
           <motion.div
             whileHover={{ scale: 1.05 }}
@@ -168,7 +168,7 @@ export default function AboutPage() {
           >
             <a 
               href="/contact" 
-              className="px-8 py-4 bg-bytewave-accent text-white rounded-full font-bold text-lg hover:shadow-lg hover:shadow-bytewave-accent/20 transition-all"
+              className="px-8 py-4 bg-innotech-accent text-white rounded-full font-bold text-lg hover:shadow-lg hover:shadow-innotech-accent/20 transition-all"
             >
               Work with us
             </a>
