@@ -7,10 +7,10 @@ const CTA = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative isolate overflow-hidden bg-innotech-primary px-6 py-24 text-center shadow-2xl rounded-3xl sm:px-16">
           <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Ready to build the future of your business?
+            Ready to strengthen your IT team or strategy?
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-blue-100/80">
-            Get in touch today for a free consultation and quote. Our team is ready to scale your ideas into reality.
+            Schedule a consultation to discuss staffing, consulting, or project delivery. We&apos;ll match you with the right approach for your goals.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link

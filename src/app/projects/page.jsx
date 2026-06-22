@@ -3,8 +3,8 @@ import Image from "next/image";
 import { ExternalLink, Github, Code, Layout, Smartphone, Database } from "lucide-react";
 
 export const metadata = {
-  title: "Software Development Projects | ByteWave Portfolio",
-  description: "Explore ByteWave's portfolio of professional web development projects and custom software solutions. We deliver high-performance applications that drive business growth.",
+  title: "Case Studies",
+  description: "Explore Supervalue LLC case studies across fintech, healthcare, retail, and software delivery engagements.",
 };
 
 import { projects as projectData } from "../../../libs/data/project";
@@ -34,10 +34,10 @@ export default function ProjectsPage() {
         <div className="container mx-auto px-4 text-center">
           <header className="mx-auto max-w-3xl">
             <h1 className="text-4xl font-extrabold tracking-tight text-primary dark:text-white sm:text-5xl lg:text-6xl">
-              Professional <span className="text-accent">Web & Software</span> Solutions
+              Proven <span className="text-accent">Results</span> Across Industries
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              A showcase of our technical competence and real-world experience. Every project represents our commitment to fast, accessible, and high-quality software development services.
+              A selection of engagements spanning fintech, healthcare, retail, and platform engineering—showcasing how Supervalue LLC delivers consulting, staffing, and software outcomes.
             </p>
           </header>
         </div>
@@ -49,15 +49,15 @@ export default function ProjectsPage() {
           <div className="mb-16 flex flex-col items-center justify-between gap-4 md:flex-row md:items-end">
             <div className="max-w-xl text-center md:text-left">
               <h2 className="text-3xl font-bold tracking-tight text-primary dark:text-white sm:text-4xl">
-                Our Work in Action
+                Case Studies in Action
               </h2>
               <p className="mt-4 text-muted-foreground">
-                Explore how we solve complex problems using modern technology stacks and user-centric design patterns.
+                Explore how we solve complex problems through consulting, talent sourcing, and modern technology delivery.
               </p>
             </div>
             <div className="flex gap-4">
               <span className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary dark:text-accent tracking-wide uppercase">
-                All Projects
+                All Case Studies
               </span>
             </div>
           </div>
@@ -129,16 +129,16 @@ export default function ProjectsPage() {
         <div className="container mx-auto px-4 text-center">
           <div className="mx-auto max-w-2xl">
             <Code className="mx-auto h-12 w-12 text-accent" />
-            <h2 className="mt-6 text-3xl font-bold text-white">Ready to start your next project?</h2>
+            <h2 className="mt-6 text-3xl font-bold text-white">Ready to discuss your next engagement?</h2>
             <p className="mt-4 text-lg text-slate-300">
-              We bring the same level of technical rigor and attention to detail to every client partner we work with.
+              We bring the same level of technical rigor and attention to detail to every consulting, staffing, and delivery partnership.
             </p>
             <div className="mt-8">
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-4 text-sm font-bold text-white transition-transform hover:scale-105"
               >
-                Let's Talk Technical Details
+                Contact Supervalue LLC
               </Link>
             </div>
           </div>

@@ -26,14 +26,14 @@ export async function POST(req) {
 
     sgMail.setApiKey(SENDGRID_API_KEY);
 
-    const plain = `New inquiry from ${data.name} (${data.email})\n\nProject type: ${data.projectType || "N/A"}\nBudget: ${data.budget || "N/A"}\nTimeline: ${data.timeline || "N/A"}\n\nMessage:\n${data.message}`;
+    const plain = `New inquiry from ${data.name} (${data.email})\n\nInquiry type: ${data.projectType || "N/A"}\nBudget: ${data.budget || "N/A"}\nTimeline: ${data.timeline || "N/A"}\n\nMessage:\n${data.message}`;
 
     const msg = {
       to: CONTACT_TO_EMAIL,
       from: CONTACT_FROM_EMAIL,
-      subject: `New project inquiry from ${data.name}`,
+      subject: `New inquiry from ${data.name} — Supervalue LLC`,
       text: plain,
-      html: `<p><strong>Name:</strong> ${data.name} (${data.email})</p><p><strong>Project:</strong> ${data.projectType || "N/A"}</p><p><strong>Budget:</strong> ${data.budget || "N/A"}</p><p><strong>Timeline:</strong> ${data.timeline || "N/A"}</p><p><strong>Message:</strong><br/>${data.message.replace(/\n/g, "<br/>")}</p>`,
+      html: `<p><strong>Name:</strong> ${data.name} (${data.email})</p><p><strong>Inquiry type:</strong> ${data.projectType || "N/A"}</p><p><strong>Budget:</strong> ${data.budget || "N/A"}</p><p><strong>Timeline:</strong> ${data.timeline || "N/A"}</p><p><strong>Message:</strong><br/>${data.message.replace(/\n/g, "<br/>")}</p>`,
     };
 
     await sgMail.send(msg);

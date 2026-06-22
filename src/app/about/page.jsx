@@ -1,23 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Users2, Rocket, Heart, Lightbulb, Target } from "lucide-react";
+import { Code2, Users2, Rocket, Lightbulb, Target } from "lucide-react";
 
 export default function AboutPage() {
-  const fadeIn = {
-    initial: { opacity: 0, y: 20 },
-    animate: { opacity: 1, y: 0 },
-    transition: { duration: 0.6 }
-  };
-
-  const stagger = {
-    animate: {
-      transition: {
-        staggerChildren: 0.1
-      }
-    }
-  };
-
   return (
     <div className="min-h-screen pt-12 pb-16">
       {/* Hero Section */}
@@ -32,7 +18,7 @@ export default function AboutPage() {
             Human engineering in an <span className="text-innotech-accent">automated world.</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-            We don't just generate code; we solve problems. InnoTech is a global remote collective focused on turning rough ideas into solid, usable products through collaboration and craftsmanship.
+            We don&apos;t just generate code; we solve problems. Supervalue LLC is a California-registered IT consulting and talent sourcing firm focused on turning rough ideas into solid, usable outcomes through collaboration and craftsmanship.
           </p>
         </motion.div>
       </section>
@@ -50,13 +36,13 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">How it started</h2>
               <div className="space-y-4 text-lg text-muted-foreground">
                 <p>
-                  InnoTech began when a group of remote developers connected with a simple idea: why not form a global team and build things the right way? 
+                  Supervalue LLC grew out of the same spirit that shaped our original engineering collective: a group of remote developers who believed great work happens when skilled people collaborate across borders, share ownership, and focus on outcomes—not office politics.
                 </p>
                 <p>
-                  The goal wasn't just to make money, but to collaborate, take on real client jobs, and share earnings fairly while building products that actually matter.
+                  What began as peer-to-peer project work evolved into a registered California LLC built to serve a broader need: businesses don&apos;t just need code written—they need the right strategy, the right people, and reliable delivery partners they can trust.
                 </p>
                 <p>
-                  What started as a conversation between remote peers quickly grew. We added more global talent, expanded our reach, and evolved into the organic, focused team we are today.
+                  Today we help clients across North America with consulting, staffing, and software delivery—from Ridgecrest to Brooklyn and remote teams worldwide.
                 </p>
               </div>
             </motion.div>
@@ -70,9 +56,9 @@ export default function AboutPage() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-innotech-accent/5 rounded-full -mr-16 -mt-16 group-hover:bg-innotech-accent/10 transition-colors" />
               <div className="relative z-10">
                 <Users2 className="w-12 h-12 text-innotech-accent mb-6" />
-                <h3 className="text-2xl font-semibold mb-2">Global Remote</h3>
+                <h3 className="text-2xl font-semibold mb-2">US-Based, Remote-Ready</h3>
                 <p className="text-muted-foreground">
-                  Every person at InnoTech is part of a distributed team. We are collaborators by nature and engineers by choice, bringing diverse perspectives and immense energy to every challenge.
+                  Every engagement at Supervalue is supported by a distributed team of collaborators and engineers, bringing diverse perspectives and practical delivery experience to every challenge.
                 </p>
               </div>
             </motion.div>
@@ -135,19 +121,19 @@ export default function AboutPage() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="flex-1">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Open to everyone</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Who we serve</h2>
               <p className="text-xl text-gray-300 mb-8">
-                Whether you're an individual with a side project, a startup looking for its first MVP, or a business needing custom software solutions, we're here to help. At this stage, we have no narrow niche—just a passion for building great things.
+                Whether you&apos;re a startup scaling your first engineering team, a growing company needing staff augmentation, or an enterprise seeking specialized contractors—we help with consulting, sourcing, and delivery across fintech, healthcare, retail, SaaS, and more.
               </p>
             </div>
             <div className="flex-1 bg-white/10 backdrop-blur-md p-8 rounded-3xl border border-white/20">
-              <h3 className="text-2xl font-bold mb-4">Honest Positioning</h3>
+              <h3 className="text-2xl font-bold mb-4">Who we are</h3>
               <p className="text-gray-300 mb-6">
-                We believe in transparency. InnoTech is not an official institution or a registered corporation yet. We aren't backed by massive VCs or endorsed by major brands.
+                Supervalue LLC is a registered limited liability company in California. We operate with transparency, professional standards, and a commitment to client confidentiality. Our focus is long-term partnerships—not hype.
               </p>
               <div className="flex items-center gap-2 text-innotech-accent font-semibold">
                 <Rocket className="w-5 h-5" />
-                <span>Growing through skill, not hype.</span>
+                <span>Built on expertise, accountability, and results.</span>
               </div>
             </div>
           </div>
@@ -159,7 +145,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-6 max-w-3xl">
           <h2 className="text-3xl font-bold mb-6">Looking ahead</h2>
           <p className="text-lg text-muted-foreground mb-10">
-            InnoTech is in its early stages, and we're currently launching. Our focus remains grounded: building, growing, and constantly improving our engineering craft. We're excited to see where this journey takes us and the products we'll build along the way.
+            Supervalue LLC continues to expand its consulting and staffing practice while delivering the same engineering craftsmanship our founding team brought to web, mobile, cloud, and AI projects. We&apos;re excited to partner with clients who value clarity, quality, and dependable outcomes.
           </p>
           <motion.div
             whileHover={{ scale: 1.05 }}

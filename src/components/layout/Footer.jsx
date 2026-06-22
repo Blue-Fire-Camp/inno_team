@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,45 +14,28 @@ const Footer = () => {
               <div className="relative h-8 w-8 overflow-hidden rounded-md">
                 <Image
                   src="/favicon.jpg"
-                  alt="InnoTech Logo"
+                  alt="Supervalue Logo"
                   fill
                   className="object-contain"
                 />
               </div>
-              <span className="text-xl font-bold tracking-tight">InnoTech</span>
+              <span className="text-xl font-bold tracking-tight">Supervalue LLC</span>
             </Link>
             <p className="mt-4 max-w-xs text-sm text-muted-foreground">
-              Engineering judgment and craftsmanship for talent teams and businesses. Built by professionals, focused on true problem solving.
+              Supervalue LLC connects businesses with vetted IT talent and strategic consulting—built for scale, compliance, and long-term partnerships.
             </p>
             <div className="mt-6 flex space-x-4">
-              {/* <a
-                href="https://github.com/InnoTechteam"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors"
-              >
-                <Github size={20} />
-              </a>
               <a
-                href="https://x.com/InnoTechTeams"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="mailto:contact@supervalues.com"
                 className="text-muted-foreground hover:text-accent transition-colors"
-              >
-                <Twitter size={20} />
-              </a>
-              <a
-                href="mailto:innotechteams@gmail.com"
-                className="text-muted-foreground hover:text-accent transition-colors"
+                aria-label="Email Supervalue LLC"
               >
                 <Mail size={20} />
-              </a> */}
-              <address className="mt-2 flex flex-col space-y-1 text-sm">
-                <span className="text-muted-foreground">Mandaluyong, Philippines</span>
-                <span className="text-muted-foreground">Tijuana, Mexico</span>
+              </a>
+              <address className="mt-2 flex flex-col space-y-1 text-sm not-italic">
+                <span className="text-muted-foreground">Ridgecrest, CA 93555</span>
+                <span className="text-muted-foreground">Brooklyn, New York 11201</span>
               </address>
-              
-
             </div>
           </div>
 
@@ -61,12 +44,12 @@ const Footer = () => {
             <ul className="mt-4 space-y-2">
               <li>
                 <Link href="/services" className="text-sm text-muted-foreground hover:text-accent transition-colors">
-                  Web Development
+                  IT Consulting
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="text-sm text-muted-foreground hover:text-accent transition-colors">
-                  Mobile Apps
+                  Talent Sourcing
                 </Link>
               </li>
             </ul>
@@ -87,7 +70,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/projects" className="text-sm text-muted-foreground hover:text-accent transition-colors">
-                  Success Stories
+                  Case Studies
                 </Link>
               </li>
             </ul>
@@ -95,10 +78,10 @@ const Footer = () => {
         </div>
         <div className="mt-12 border-t pt-8 text-center md:flex md:items-center md:justify-between">
           <p className="text-xs text-muted-foreground">
-            &copy; {currentYear} InnoTech. All rights reserved.
+            &copy; {currentYear} Supervalue LLC. All rights reserved.
           </p>
           <p className="mt-4 text-xs text-muted-foreground md:mt-0">
-            Designed for performance and scalability.
+            Strategic IT consulting and talent sourcing.
           </p>
         </div>
       </div>
