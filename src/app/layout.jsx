@@ -18,7 +18,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 
-const baseUrl = "https://innotech.samkiel.dev"; // Replace with actual production domain
+const baseUrl = "https://supervalues.org";
 
 
 
@@ -28,39 +28,43 @@ export const metadata = {
 
   title: {
 
-    default: "InnoTech | Global Remote Software Engineering",
+    default: "Supervalue LLC | IT Consulting & Talent Sourcing",
 
-    template: "%s | InnoTech"
+    template: "%s | Supervalue LLC"
 
   },
 
-  description: "InnoTech is a global remote collective focused on building solid, usable digital products through engineering judgment and collaborative problem-solving.",
+  description: "Supervalue LLC helps businesses with IT consulting, vetted talent sourcing, and software delivery. US-based, remote-ready, engineering-led.",
 
   keywords: [
 
-    "InnoTech",
+    "Supervalue LLC",
+
+    "IT consulting",
+
+    "IT staffing",
+
+    "talent sourcing",
 
     "software development",
 
-    "global remote startup",
+    "dedicated teams",
+
+    "staff augmentation",
+
+    "California",
 
     "web development",
 
     "product engineering",
 
-    "digital solutions",
-
-    "mobile application development",
-
-    "engineering mindset"
-
   ],
 
-  authors: [{ name: "InnoTech Team" }],
+  authors: [{ name: "Supervalue LLC" }],
 
-  creator: "InnoTech Team",
+  creator: "Supervalue LLC",
 
-  publisher: "InnoTech",
+  publisher: "Supervalue LLC",
 
   alternates: {
 
@@ -76,23 +80,23 @@ export const metadata = {
 
     url: baseUrl,
 
-    siteName: "InnoTech",
+    siteName: "Supervalue LLC",
 
-    title: "InnoTech | Global Remote Software Engineering",
+    title: "Supervalue LLC | IT Consulting & Talent Sourcing",
 
-    description: "Turning rough ideas into usable digital products through craftsmanship and collaboration.",
+    description: "Strategic IT consulting and talent sourcing for teams that need results—not hype.",
 
     images: [
 
       {
 
-        url: "/og-image.jpg", // Replace with actual OG image path
+        url: "/og-image.jpg",
 
         width: 1200,
 
         height: 630,
 
-        alt: "InnoTech - Engineering Judgment in an Automated World",
+        alt: "Supervalue LLC — IT Consulting & Talent Sourcing",
 
       },
 
@@ -104,15 +108,15 @@ export const metadata = {
 
     card: "summary_large_image",
 
-    title: "InnoTech | Global Remote Software Engineering",
+    title: "Supervalue LLC | IT Consulting & Talent Sourcing",
 
-    description: "Building usable digital products through engineering judgment and collaboration.",
+    description: "IT consulting, talent sourcing, and software delivery from a US-based engineering team.",
 
-    images: ["/og-image.jpg"], // Replace with actual Twitter image path
+    images: ["/og-image.jpg"],
 
-    creator: "@InnoTechTeams",
+    creator: "@SupervalueLLC",
 
-    site: "@InnoTechTeams",
+    site: "@SupervalueLLC",
 
   },
 
@@ -211,4 +215,3 @@ export default function RootLayout({ children }) {
   );
 
 }
-

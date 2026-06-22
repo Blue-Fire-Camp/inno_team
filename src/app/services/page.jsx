@@ -281,19 +281,17 @@ export default function ServicesPage() {
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tight text-primary dark:text-white sm:text-5xl lg:text-6xl">
-              Elite Engineering Services
+              IT Consulting & Delivery Services
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground sm:text-xl">
-              We craft world-class digital products using cutting-edge
-              technologies and battle-tested methodologies. From concept to
-              deployment, we&apos;re your engineering partner.
+              From strategic advisory and talent sourcing to full-stack development and cloud infrastructure—Supervalue LLC is your partner from planning through deployment.
             </p>
             <div className="flex items-center justify-center mt-10 gap-x-6">
               <a
                 href="/contact"
                 className="px-6 py-3 text-sm font-semibold transition-colors rounded-md shadow-sm bg-primary text-primary-foreground hover:bg-primary/90 dark:bg-white dark:text-black dark:hover:bg-white/90"
               >
-                Start Your Project
+                Start a Consultation
               </a>
               <a
                 href="#services"
@@ -545,11 +543,10 @@ export default function ServicesPage() {
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary dark:text-white sm:text-4xl">
-              Ready to Build Something Amazing?
+              Ready to strengthen your IT team or strategy?
             </h2>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Let&apos;s discuss your project and find the perfect solution for
-              your needs. Our team is ready to turn your vision into reality.
+              Let&apos;s discuss consulting, staffing, or project delivery. Our team will match you with the right approach for your goals.
             </p>
             <div className="flex items-center justify-center mt-10 gap-x-6">
               <a

@@ -20,12 +20,12 @@ const Projects = () => {
     <section id="projects" className="py-24 sm:py-32 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-base font-semibold leading-7 text-accent uppercase tracking-widest">Our Work</h2>
+          <h2 className="text-base font-semibold leading-7 text-accent uppercase tracking-widest">Case Studies</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-primary dark:text-white sm:text-4xl">
-            Success Stories
+            Proven Results Across Industries
           </p>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            A showcase of our latest technical engineering projects. We build solid, usable products that solve real problems.
+            A selection of engagements spanning fintech, healthcare, retail, and platform engineering.
           </p>
         </div>
         
@@ -88,7 +88,7 @@ const Projects = () => {
             href="/projects"
             className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-sm font-bold text-white shadow-sm transition-all hover:bg-primary/90 dark:bg-accent dark:hover:bg-accent/90"
           >
-            View More Projects <ArrowRight className="ml-2" size={18} />
+            View More Case Studies <ArrowRight className="ml-2" size={18} />
           </Link>
         </div>
       </div>

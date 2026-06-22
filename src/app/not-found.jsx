@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata = {
-  title: "404 - Not Found | ByteWave",
+  title: "404 - Not Found",
   description: "The page you are looking for could not be found.",
 };
 

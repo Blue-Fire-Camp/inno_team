@@ -18,23 +18,23 @@ const Hero = () => {
         <div className="flex flex-col items-center justify-between gap-12 lg:flex-row">
           <div className="max-w-2xl text-center lg:text-left">
             <h1 className="text-4xl font-extrabold tracking-tight text-primary dark:text-white sm:text-5xl lg:text-6xl">
-              Engineering Future-Ready <span className="text-accent">Digital Experiences</span>
+              The Right IT Talent. The Right <span className="text-accent">Strategy. Delivered.</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              InnoTech delivers fast, high-quality, and affordable web and mobile development services. We scale your ideas into long-term digital solutions.
+              Supervalue LLC partners with businesses to source vetted IT professionals and deliver strategic consulting—from staff augmentation to full project delivery.
             </p>
             <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-sm font-semibold text-white shadow-sm transition-all hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary dark:bg-white dark:text-primary dark:hover:bg-slate-200"
               >
-                Contact Our Team <Mail className="ml-2" size={18} />
+                Request a Consultation <Mail className="ml-2" size={18} />
               </Link>
               <a
                 href="/projects"
                 className="inline-flex items-center text-sm font-semibold leading-6 text-primary dark:text-white hover:text-accent transition-colors"
               >
-                View our work <ArrowRight className="ml-1" size={16} />
+                View case studies <ArrowRight className="ml-1" size={16} />
               </a>
             </div>
           </div>
@@ -64,7 +64,7 @@ const Hero = () => {
             >
               <Image
                 src="/inno_logo.png"
-                alt="Modern Software Development"
+                alt="Supervalue LLC — IT Consulting & Talent Sourcing"
                 fill
                 className="object-cover"
                 priority

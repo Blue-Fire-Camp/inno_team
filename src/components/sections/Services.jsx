@@ -1,25 +1,25 @@
-import { Globe, Smartphone, ShieldCheck, Zap } from "lucide-react";
+import { Briefcase, Users, Code2, Cloud } from "lucide-react";
 
 const services = [
   {
-    title: "Web Application Development",
-    description: "Building scalable, high-performance web applications using modern stacks like React, Next.js, and Node.js. Focused on user experience and robust architecture.",
-    icon: Globe,
+    title: "IT Consulting & Strategy",
+    description: "Assess systems, define priorities, and build practical roadmaps—from architecture reviews to digital transformation planning.",
+    icon: Briefcase,
   },
   {
-    title: "Mobile Application Development",
-    description: "Developing cross-platform mobile experiences that feel native. We prioritize accessibility, performance, and seamless device integration.",
-    icon: Smartphone,
+    title: "Talent Sourcing & Staffing",
+    description: "Contract staffing, dedicated engineering teams, and direct hire support with technical vetting led by our engineering leads.",
+    icon: Users,
   },
   {
-    title: "Quality Engineering",
-    description: "Rigorous testing and clean code practices ensure your products are bug-free and maintainable for the long term.",
-    icon: ShieldCheck,
+    title: "Software Delivery",
+    description: "End-to-end web, mobile, and platform development when you need a partner who can both advise and build.",
+    icon: Code2,
   },
   {
-    title: "Performance & Scalability",
-    description: "Architecting systems that grow with your business. We optimize every layer for speed and massive concurrent user support.",
-    icon: Zap,
+    title: "Cloud & DevOps",
+    description: "Scalable cloud architecture, CI/CD pipelines, and infrastructure designed for reliability, security, and growth.",
+    icon: Cloud,
   },
 ];
 
@@ -30,10 +30,10 @@ const Services = () => {
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-base font-semibold leading-7 text-accent uppercase tracking-widest">Our Expertise</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-primary dark:text-white sm:text-4xl">
-            Modern Solutions for Complex Problems
+            Modern Solutions for Complex IT Challenges
           </p>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            We don&apos;t just build apps; we engineer business solutions using the latest technologies and best practices.
+            From advisory engagements to embedded engineering teams, we help you move faster with the right people and the right plan.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

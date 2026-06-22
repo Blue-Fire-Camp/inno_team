@@ -10,21 +10,21 @@ const About = () => {
 
           <div>
 
-            <h2 className="text-base font-semibold leading-7 text-accent uppercase tracking-widest">About InnoTech</h2>
+            <h2 className="text-base font-semibold leading-7 text-accent uppercase tracking-widest">About Supervalue</h2>
 
             <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
 
-              Engineering judgment for the modern age.
+              Strategic IT partnerships built on trust.
 
             </p>
 
             <p className="mt-6 text-lg leading-8 text-blue-100/80">
 
-              InnoTech is a global remote startup built on collaboration, skill, and a focus on human engineering mindset. We believe that while AI tools can generate code quickly, they lack the true judgment needed to solve complex problems.
+              Supervalue LLC is a California-registered company providing IT consulting and talent sourcing for businesses that need reliable technology outcomes. We combine consulting clarity with delivery experience honed by a global engineering team—from Ridgecrest to Brooklyn and beyond.
 
 
 
-Our team helps shape rough ideas into solid products, focusing on understanding intent and building usable solutions for individuals, startups, and businesses. We are growing organically through craftsmanship, not hype.
+We help clients clarify requirements, place vetted technical talent, and deliver software with craftsmanship, accountability, and long-term maintainability in mind.
 
             </p>
 
@@ -34,15 +34,15 @@ Our team helps shape rough ideas into solid products, focusing on understanding 
 
                 <p className="text-3xl font-bold italic">Global</p>
 
-                <p className="text-sm font-medium text-blue-100/60 uppercase">Remote Team</p>
+                <p className="text-sm font-medium text-blue-100/60 uppercase">Remote Delivery</p>
 
               </div>
 
               <div>
 
-                <p className="text-3xl font-bold italic">Organic</p>
+                <p className="text-3xl font-bold italic">Engineering-Led</p>
 
-                <p className="text-sm font-medium text-blue-100/60 uppercase">Skill-Based Growth</p>
+                <p className="text-sm font-medium text-blue-100/60 uppercase">Client-First</p>
 
               </div>
 
@@ -54,9 +54,9 @@ Our team helps shape rough ideas into solid products, focusing on understanding 
 
              <div className="p-12 text-center">
 
-                <span className="text-8xl font-black opacity-10">IT</span>
+                <span className="text-8xl font-black opacity-10">SV</span>
 
-                <p className="text-xl font-medium mt-4">Human Thinking. Solid Engineering. Real Products.</p>
+                <p className="text-xl font-medium mt-4">People First. Process Driven. Results Focused.</p>
 
              </div>
 
@@ -75,4 +75,3 @@ Our team helps shape rough ideas into solid products, focusing on understanding 
 
 
 export default About;
-
