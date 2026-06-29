@@ -13,10 +13,10 @@ export default function TermsPage() {
           <div className="prose prose-invert max-w-none space-y-8">
             <section>
               <p className="text-sm text-muted-foreground mb-4">
-                <strong>Last Updated:</strong> {new Date().toLocaleDateString()}
+                <strong>Last Updated:</strong> June 29th, 2026
               </p>
               <p className="text-sm text-muted-foreground">
-                <strong>Effective Date:</strong> {new Date().toLocaleDateString()}
+                <strong>Effective Date:</strong>  June 29th, 2026
               </p>
             </section>
 
