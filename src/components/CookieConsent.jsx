@@ -48,7 +48,7 @@ const CookieConsent = ({ onConsent }) => {
           <div className="flex-1">
             <p className="text-sm font-medium">Cookie Preferences</p>
             <p className="mt-1 text-xs text-muted-foreground">
-              We and our service providers use Cookies and other tracking technologies to operate our Site, deliver information, improve your experience, analyze your use of our Site, and deliver targeted ads. We also share information about your use of our Site with our social media, advertising, and analytics partners for advertising and analytics purposes. If we have detected an opt-out preference signal, we will honor it.  By clicking "Accept All", you consent to our use of cookies. Read our{' '}
+              We and our service providers use Cookies and other tracking technologies to operate our Site, deliver information, improve your experience, analyze your use of our Site, and deliver targeted ads. We also share information about your use of our Site with our social media, advertising, and analytics partners for advertising and analytics purposes.  By clicking "Accept All", you consent to our use of cookies. Read our{' '}
               <Link href="/privacy" className="underline hover:text-accent">
                 Privacy Policy
               </Link>{' '}
