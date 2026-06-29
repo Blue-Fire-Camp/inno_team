@@ -76,10 +76,21 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="mt-12 border-t pt-8 text-center md:flex md:items-center md:justify-between">
-          <p className="text-xs text-muted-foreground">
-            &copy; {currentYear} Supervalue LLC. All rights reserved.
-          </p>
+
+        <div className="mt-12 border-t pt-8">
+          <div className="grid grid-cols-2 gap-4 md:flex md:items-center md:justify-between">
+            <p className="text-xs text-muted-foreground">
+              &copy; {currentYear} Supervalue LLC. All rights reserved.
+            </p>
+            <div className="flex flex-wrap gap-4 text-xs">
+              <Link href="/privacy" className="text-muted-foreground hover:text-accent transition-colors">
+                Privacy Policy
+              </Link>
+              <Link href="/terms" className="text-muted-foreground hover:text-accent transition-colors">
+                Terms of Service
+              </Link>
+            </div>
+          </div>
           <p className="mt-4 text-xs text-muted-foreground md:mt-0">
             Strategic IT consulting and talent sourcing.
           </p>
