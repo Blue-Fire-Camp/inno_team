@@ -43,7 +43,7 @@ const CookieConsent = ({ onConsent }) => {
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-40 animate-in slide-in-from-bottom-5 duration-300">
-      <div className="mx-4 mb-4 rounded-lg border bg-background shadow-lg">
+      <div className="mx-4 mb-3 rounded-lg border bg-background shadow-lg">
         <div className="flex flex-col gap-4 p-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex-1">
             <p className="text-sm font-medium">Cookie Preferences</p>
