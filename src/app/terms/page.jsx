@@ -173,7 +173,7 @@ export default function TermsPage() {
               </p>
               <div className="mt-4 p-4 bg-muted rounded-lg">
                 <p className="text-sm"><strong>Supervalue LLC</strong></p>
-                <p className="text-sm text-muted-foreground">Email: <a href="mailto:contact@supervalues.com" className="text-accent hover:underline">contact@supervalues.com</a></p>
+                <p className="text-sm text-muted-foreground">Email: <a href="mailto:contact@supervalue.info" className="text-accent hover:underline">contact@supervalue.info</a></p>
                 <p className="text-sm text-muted-foreground">Address: Ridgecrest, CA 93555</p>
               </div>
             </section>
