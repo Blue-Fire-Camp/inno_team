@@ -38,7 +38,7 @@ export const metadata = {
 
   },
 
-  description: "Supervalue LLC helps businesses with IT consulting, vetted talent sourcing, and software delivery. US-based, remote-ready, engineering-led.",
+  description: "SuperValue LLC helps businesses with IT consulting, vetted talent sourcing, and software delivery. US-based, remote-ready, engineering-led.",
 
   keywords: [
 
