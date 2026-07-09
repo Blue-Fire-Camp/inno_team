@@ -22,7 +22,7 @@ const Footer = () => {
               <span className="text-xl font-bold tracking-tight">Supervalue LLC</span>
             </Link>
             <p className="mt-4 max-w-xs text-sm text-muted-foreground">
-              Supervalue LLC connects businesses with vetted IT talent and strategic consulting—built for scale, compliance, and long-term partnerships.
+              SuperValue LLC connects businesses with vetted IT talent and strategic consulting—built for scale, compliance, and long-term partnerships.
             </p>
             <div className="mt-6 flex space-x-4">
               <a
