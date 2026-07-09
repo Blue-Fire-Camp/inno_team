@@ -145,7 +145,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-6 max-w-3xl">
           <h2 className="text-3xl font-bold mb-6">Looking ahead</h2>
           <p className="text-lg text-muted-foreground mb-10">
-            Supervalue LLC continues to expand its consulting and staffing practice while delivering the same engineering craftsmanship our founding team brought to web, mobile, cloud, and AI projects. We&apos;re excited to partner with clients who value clarity, quality, and dependable outcomes.
+            SuperValue LLC continues to expand its consulting and staffing practice while delivering the same engineering craftsmanship our founding team brought to web, mobile, cloud, and AI projects. We&apos;re excited to partner with clients who value clarity, quality, and dependable outcomes.
           </p>
           <motion.div
             whileHover={{ scale: 1.05 }}
