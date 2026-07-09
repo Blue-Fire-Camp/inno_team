@@ -32,9 +32,9 @@ export const metadata = {
 
   title: {
 
-    default: "Supervalue LLC | IT Consulting & Talent Sourcing",
+    default: "SuperValue LLC | IT Consulting & Talent Sourcing",
 
-    template: "%s | Supervalue LLC"
+    template: "%s | SuperValue LLC"
 
   },
 
@@ -64,11 +64,11 @@ export const metadata = {
 
   ],
 
-  authors: [{ name: "Supervalue LLC" }],
+  authors: [{ name: "SuperValue LLC" }],
 
-  creator: "Supervalue LLC",
+  creator: "SuperValue LLC",
 
-  publisher: "Supervalue LLC",
+  publisher: "SuperValue LLC",
 
   alternates: {
 
@@ -84,9 +84,9 @@ export const metadata = {
 
     url: baseUrl,
 
-    siteName: "Supervalue LLC",
+    siteName: "SuperValue LLC",
 
-    title: "Supervalue LLC | IT Consulting & Talent Sourcing",
+    title: "SuperValue LLC | IT Consulting & Talent Sourcing",
 
     description: "Strategic IT consulting and talent sourcing for teams that need results—not hype.",
 
@@ -100,7 +100,7 @@ export const metadata = {
 
         height: 630,
 
-        alt: "Supervalue LLC — IT Consulting & Talent Sourcing",
+        alt: "SuperValue LLC — IT Consulting & Talent Sourcing",
 
       },
 
@@ -112,15 +112,15 @@ export const metadata = {
 
     card: "summary_large_image",
 
-    title: "Supervalue LLC | IT Consulting & Talent Sourcing",
+    title: "SuperValue LLC | IT Consulting & Talent Sourcing",
 
     description: "IT consulting, talent sourcing, and software delivery from a US-based engineering team.",
 
     images: ["/og-image.jpg"],
 
-    creator: "@SupervalueLLC",
+    creator: "@SuperValueLLC",
 
-    site: "@SupervalueLLC",
+    site: "@SuperValueLLC",
 
   },
 
