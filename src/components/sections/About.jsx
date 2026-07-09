@@ -20,7 +20,7 @@ const About = () => {
 
             <p className="mt-6 text-lg leading-8 text-blue-100/80">
 
-              Supervalue LLC is a California-registered company providing IT consulting and talent sourcing for businesses that need reliable technology outcomes. We combine consulting clarity with delivery experience honed by a global engineering team—from Ridgecrest to Brooklyn and beyond.
+              Supervalue LLC is a California-registered company providing IT consulting and talent sourcing for businesses that need reliable technology outcomes. We combine consulting clarity with delivery experience honed by a global engineering team.
 
 
 
