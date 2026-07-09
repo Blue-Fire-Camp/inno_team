@@ -36,7 +36,7 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">How it started</h2>
               <div className="space-y-4 text-lg text-muted-foreground">
                 <p>
-                  Supervalue LLC grew out of the same spirit that shaped our original engineering collective: a group of remote developers who believed great work happens when skilled people collaborate across borders, share ownership, and focus on outcomes—not office politics.
+                  SuperValue LLC grew out of the same spirit that shaped our original engineering collective: a group of remote developers who believed great work happens when skilled people collaborate across borders, share ownership, and focus on outcomes—not office politics.
                 </p>
                 <p>
                   What began as peer-to-peer project work evolved into a registered California LLC built to serve a broader need: businesses don&apos;t just need code written—they need the right strategy, the right people, and reliable delivery partners they can trust.
