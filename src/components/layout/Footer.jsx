@@ -34,7 +34,6 @@ const Footer = () => {
               </a>
               <address className="mt-2 flex flex-col space-y-1 text-sm not-italic">
                 <span className="text-muted-foreground">Ridgecrest, CA 93555</span>
-                <span className="text-muted-foreground">Brooklyn, New York 11201</span>
               </address>
             </div>
           </div>
