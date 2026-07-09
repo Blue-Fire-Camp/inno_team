@@ -14,12 +14,12 @@ const Footer = () => {
               <div className="relative h-8 w-8 overflow-hidden rounded-md">
                 <Image
                   src="/favicon.jpg"
-                  alt="Supervalue Logo"
+                  alt="SuperValue Logo"
                   fill
                   className="object-contain"
                 />
               </div>
-              <span className="text-xl font-bold tracking-tight">Supervalue LLC</span>
+              <span className="text-xl font-bold tracking-tight">SuperValue LLC</span>
             </Link>
             <p className="mt-4 max-w-xs text-sm text-muted-foreground">
               SuperValue LLC connects businesses with vetted IT talent and strategic consulting—built for scale, compliance, and long-term partnerships.
@@ -28,7 +28,7 @@ const Footer = () => {
               <a
                 href="mailto:contact@supervalues.com"
                 className="text-muted-foreground hover:text-accent transition-colors"
-                aria-label="Email Supervalue LLC"
+                aria-label="Email SuperValue LLC"
               >
                 <Mail size={20} />
               </a>
@@ -79,7 +79,7 @@ const Footer = () => {
         <div className="mt-12 border-t pt-8">
           <div className="grid grid-cols-2 gap-4 md:flex md:items-center md:justify-between">
             <p className="text-xs text-muted-foreground">
-              &copy; {currentYear} Supervalue LLC. All rights reserved.
+              &copy; {currentYear} SuperValue LLC. All rights reserved.
             </p>
             <div className="flex flex-wrap gap-4 text-xs">
               <Link href="/privacy" className="text-muted-foreground hover:text-accent transition-colors">

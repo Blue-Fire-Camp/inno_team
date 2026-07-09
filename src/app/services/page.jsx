@@ -284,7 +284,7 @@ export default function ServicesPage() {
               IT Consulting & Delivery Services
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground sm:text-xl">
-              From strategic advisory and talent sourcing to full-stack development and cloud infrastructure—Supervalue LLC is your partner from planning through deployment.
+              From strategic advisory and talent sourcing to full-stack development and cloud infrastructure—SuperValue LLC is your partner from planning through deployment.
             </p>
             <div className="flex items-center justify-center mt-10 gap-x-6">
               <a

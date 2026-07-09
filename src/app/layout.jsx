@@ -22,7 +22,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 
-const baseUrl = "https://supervalues.org";
+const baseUrl = "https://supervalue.info";
 
 
 
@@ -42,7 +42,7 @@ export const metadata = {
 
   keywords: [
 
-    "Supervalue LLC",
+    "SuperValue LLC",
 
     "IT consulting",
 

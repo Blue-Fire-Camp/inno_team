@@ -7,7 +7,7 @@ import InquiryForm from '../../components/forms/InquiryForm';
 
 export const metadata = {
   title: "Contact",
-  description: "Get in touch with Supervalue LLC for IT consulting, talent sourcing, or software delivery inquiries.",
+  description: "Get in touch with SuperValue LLC for IT consulting, talent sourcing, or software delivery inquiries.",
 };
 
 export default function ContactPage() {

@@ -18,7 +18,7 @@ export default function AboutPage() {
             Human engineering in an <span className="text-innotech-accent">automated world.</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-            We don&apos;t just generate code; we solve problems. Supervalue LLC is a California-registered IT consulting and talent sourcing firm focused on turning rough ideas into solid, usable outcomes through collaboration and craftsmanship.
+            We don&apos;t just generate code; we solve problems. SuperValue LLC is a California-registered IT consulting and talent sourcing firm focused on turning rough ideas into solid, usable outcomes through collaboration and craftsmanship.
           </p>
         </motion.div>
       </section>
@@ -58,7 +58,7 @@ export default function AboutPage() {
                 <Users2 className="w-12 h-12 text-innotech-accent mb-6" />
                 <h3 className="text-2xl font-semibold mb-2">US-Based, Remote-Ready</h3>
                 <p className="text-muted-foreground">
-                  Every engagement at Supervalue is supported by a distributed team of collaborators and engineers, bringing diverse perspectives and practical delivery experience to every challenge.
+                  Every engagement at SuperValue is supported by a distributed team of collaborators and engineers, bringing diverse perspectives and practical delivery experience to every challenge.
                 </p>
               </div>
             </motion.div>
@@ -129,7 +129,7 @@ export default function AboutPage() {
             <div className="flex-1 bg-white/10 backdrop-blur-md p-8 rounded-3xl border border-white/20">
               <h3 className="text-2xl font-bold mb-4">Who we are</h3>
               <p className="text-gray-300 mb-6">
-                Supervalue LLC is a registered limited liability company in California. We operate with transparency, professional standards, and a commitment to client confidentiality. Our focus is long-term partnerships—not hype.
+                SuperValue LLC is a registered limited liability company in California. We operate with transparency, professional standards, and a commitment to client confidentiality. Our focus is long-term partnerships—not hype.
               </p>
               <div className="flex items-center gap-2 text-innotech-accent font-semibold">
                 <Rocket className="w-5 h-5" />

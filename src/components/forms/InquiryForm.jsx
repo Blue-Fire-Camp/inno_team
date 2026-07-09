@@ -148,7 +148,7 @@ export default function InquiryForm() {
         </button>
 
         <a
-          href="mailto:contact@supervalues.com?subject=Supervalue%20LLC%20Inquiry"
+          href="mailto:contact@supervalues.com?subject=SuperValue%20LLC%20Inquiry"
           className="text-sm text-muted-foreground underline hover:text-primary transition-colors"
         >
           Send by email

@@ -21,7 +21,7 @@ const Hero = () => {
               The Right IT Talent. The Right <span className="text-accent">Strategy. Delivered.</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Supervalue LLC partners with businesses to source vetted IT professionals and deliver strategic consulting—from staff augmentation to full project delivery.
+              SuperValue LLC partners with businesses to source vetted IT professionals and deliver strategic consulting—from staff augmentation to full project delivery.
             </p>
             <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
               <Link
@@ -64,7 +64,7 @@ const Hero = () => {
             >
               <Image
                 src="/inno_logo.png"
-                alt="Supervalue LLC — IT Consulting & Talent Sourcing"
+                alt="SuperValue LLC — IT Consulting & Talent Sourcing"
                 fill
                 className="object-cover"
                 priority

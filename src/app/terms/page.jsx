@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Terms of Service',
-  description: 'Terms of Service for Supervalue LLC',
+  description: 'Terms of Service for SuperValue LLC',
 };
 
 export default function TermsPage() {
@@ -23,7 +23,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-semibold mb-4">1. Agreement to Terms</h2>
               <p className="text-muted-foreground leading-relaxed">
-                By accessing and using this website (the &quot;Site&quot;) owned and operated by Supervalue LLC (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), you accept and agree to be bound by and comply with these Terms of Service. If you do not agree to these terms, please do not use this Site.
+                By accessing and using this website (the &quot;Site&quot;) owned and operated by SuperValue LLC (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), you accept and agree to be bound by and comply with these Terms of Service. If you do not agree to these terms, please do not use this Site.
               </p>
             </section>
 
@@ -45,38 +45,38 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-semibold mb-4">3. Disclaimer</h2>
               <p className="text-muted-foreground leading-relaxed mb-3">
-                The materials on our Site are provided on an &apos;as is&apos; basis. Supervalue LLC makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+                The materials on our Site are provided on an &apos;as is&apos; basis. SuperValue LLC makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Further, Supervalue LLC does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Site or otherwise relating to such materials or on any sites linked to this Site.
+                Further, SuperValue LLC does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Site or otherwise relating to such materials or on any sites linked to this Site.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">4. Limitations</h2>
               <p className="text-muted-foreground leading-relaxed">
-                In no event shall Supervalue LLC or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Supervalue LLC&apos;s Site, even if Supervalue LLC or an authorized representative has been notified orally or in writing of the possibility of such damage.
+                In no event shall SuperValue LLC or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on SuperValue LLC&apos;s Site, even if SuperValue LLC or an authorized representative has been notified orally or in writing of the possibility of such damage.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">5. Accuracy of Materials</h2>
               <p className="text-muted-foreground leading-relaxed">
-                The materials appearing on our Site could include technical, typographical, or photographic errors. Supervalue LLC does not warrant that any of the materials on its Site are accurate, complete, or current. Supervalue LLC may make changes to the materials contained on its Site at any time without notice.
+                The materials appearing on our Site could include technical, typographical, or photographic errors. SuperValue LLC does not warrant that any of the materials on its Site are accurate, complete, or current. SuperValue LLC may make changes to the materials contained on its Site at any time without notice.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">6. Materials on Third Party Sites</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Supervalue LLC has not reviewed all of the sites linked to its Site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Supervalue LLC of the site. Use of any such linked website is at the user&apos;s own risk.
+                SuperValue LLC has not reviewed all of the sites linked to its Site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by SuperValue LLC of the site. Use of any such linked website is at the user&apos;s own risk.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">7. Modifications</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Supervalue LLC may revise these Terms of Service for its Site at any time without notice. By using this Site, you are agreeing to be bound by the then current version of these Terms of Service. If the current version of these Terms of Service is unacceptable to you, you are not permitted to use this Site.
+                SuperValue LLC may revise these Terms of Service for its Site at any time without notice. By using this Site, you are agreeing to be bound by the then current version of these Terms of Service. If the current version of these Terms of Service is unacceptable to you, you are not permitted to use this Site.
               </p>
             </section>
 
@@ -90,7 +90,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-semibold mb-4">9. Limitation of Liability</h2>
               <p className="text-muted-foreground leading-relaxed mb-3">
-                To the fullest extent permitted by law, Supervalue LLC shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the Site or Services, including but not limited to:
+                To the fullest extent permitted by law, SuperValue LLC shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the Site or Services, including but not limited to:
               </p>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
                 <li>Loss of profits or revenue</li>
@@ -118,10 +118,10 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-semibold mb-4">11. Intellectual Property</h2>
               <p className="text-muted-foreground leading-relaxed mb-3">
-                All content on this Site, including text, graphics, logos, images, software, and other materials, is the property of Supervalue LLC or its content suppliers and is protected by international copyright laws. You may not reproduce, modify, distribute, or transmit any content without our prior written permission.
+                All content on this Site, including text, graphics, logos, images, software, and other materials, is the property of SuperValue LLC or its content suppliers and is protected by international copyright laws. You may not reproduce, modify, distribute, or transmit any content without our prior written permission.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                &quot;Supervalue LLC&quot; and associated logos are trademarks of Supervalue LLC. All other trademarks are the property of their respective owners.
+                &quot;SuperValue LLC&quot; and associated logos are trademarks of SuperValue LLC. All other trademarks are the property of their respective owners.
               </p>
             </section>
 
@@ -141,14 +141,14 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-semibold mb-4">13. Indemnification</h2>
               <p className="text-muted-foreground leading-relaxed">
-                You agree to indemnify and hold harmless Supervalue LLC, its officers, agents, and employees from any claim, action, or demand, including reasonable attorneys&apos; fees, arising out of or related to your use of this Site or violation of these Terms of Service.
+                You agree to indemnify and hold harmless SuperValue LLC, its officers, agents, and employees from any claim, action, or demand, including reasonable attorneys&apos; fees, arising out of or related to your use of this Site or violation of these Terms of Service.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">14. Entire Agreement</h2>
               <p className="text-muted-foreground leading-relaxed">
-                These Terms of Service, along with our Privacy Policy, constitute the entire agreement between you and Supervalue LLC regarding your use of this Site and supersede all prior and contemporaneous agreements.
+                These Terms of Service, along with our Privacy Policy, constitute the entire agreement between you and SuperValue LLC regarding your use of this Site and supersede all prior and contemporaneous agreements.
               </p>
             </section>
 
@@ -162,7 +162,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-semibold mb-4">16. Waiver</h2>
               <p className="text-muted-foreground leading-relaxed">
-                The failure of Supervalue LLC to enforce any right or provision in these Terms of Service does not constitute a waiver of such right or provision.
+                The failure of SuperValue LLC to enforce any right or provision in these Terms of Service does not constitute a waiver of such right or provision.
               </p>
             </section>
 
@@ -172,7 +172,7 @@ export default function TermsPage() {
                 For questions or concerns regarding these Terms of Service, please contact us at:
               </p>
               <div className="mt-4 p-4 bg-muted rounded-lg">
-                <p className="text-sm"><strong>Supervalue LLC</strong></p>
+                <p className="text-sm"><strong>SuperValue LLC</strong></p>
                 <p className="text-sm text-muted-foreground">Email: <a href="mailto:contact@supervalue.info" className="text-accent hover:underline">contact@supervalue.info</a></p>
                 <p className="text-sm text-muted-foreground">Address: Ridgecrest, CA 93555</p>
               </div>

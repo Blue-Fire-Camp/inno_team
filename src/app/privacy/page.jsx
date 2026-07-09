@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Privacy Policy',
-  description: 'Privacy Policy for Supervalue LLC - Learn how we protect your data',
+  description: 'Privacy Policy for SuperValue LLC - Learn how we protect your data',
 };
 
 export default function PrivacyPage() {
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Supervalue LLC (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website (the &quot;Site&quot;).
+                SuperValue LLC (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website (the &quot;Site&quot;).
               </p>
               <p className="text-muted-foreground leading-relaxed mt-3">
                 Please read this Privacy Policy carefully. If you do not agree with our policies and practices, please do not use our Site.
@@ -200,7 +200,7 @@ export default function PrivacyPage() {
                 For questions about this Privacy Policy or our privacy practices, contact us at:
               </p>
               <div className="mt-4 p-4 bg-muted rounded-lg">
-                <p className="text-sm"><strong>Supervalue LLC</strong></p>
+                <p className="text-sm"><strong>SuperValue LLC</strong></p>
                 <p className="text-sm text-muted-foreground">Email: <a href="mailto:contact@supervalue.info" className="text-accent hover:underline">contact@supervalue.info</a></p>
                 <p className="text-sm text-muted-foreground">Address: Ridgecrest, CA 93555</p>
               </div>

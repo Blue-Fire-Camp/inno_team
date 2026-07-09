@@ -31,7 +31,7 @@ export async function POST(req) {
     const msg = {
       to: CONTACT_TO_EMAIL,
       from: CONTACT_FROM_EMAIL,
-      subject: `New inquiry from ${data.name} — Supervalue LLC`,
+      subject: `New inquiry from ${data.name} — SuperValue LLC`,
       text: plain,
       html: `<p><strong>Name:</strong> ${data.name} (${data.email})</p><p><strong>Inquiry type:</strong> ${data.projectType || "N/A"}</p><p><strong>Budget:</strong> ${data.budget || "N/A"}</p><p><strong>Timeline:</strong> ${data.timeline || "N/A"}</p><p><strong>Message:</strong><br/>${data.message.replace(/\n/g, "<br/>")}</p>`,
     };

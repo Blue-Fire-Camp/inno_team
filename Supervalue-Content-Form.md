@@ -1,4 +1,4 @@
-# Supervalue LLC — Content Intake Form
+# SuperValue LLC — Content Intake Form
 
 > **Status:** Draft content filled for site rebrand.  
 > User-confirmed values are marked **✓**. Invented consulting/staffing copy references the original InnoTech/ByteWave team.
@@ -8,7 +8,7 @@
 ## 1. Company & Brand (required for launch)
 
 Legal name:  
-**Supervalue LLC** ✓
+**SuperValue LLC** ✓
 
 State of LLC formation:  
 **California** ✓
@@ -38,14 +38,14 @@ Brand color — accent (hex):
 **#e11d48** ✓ _(unchanged)_
 
 Logo file (path or filename):  
-**/inno_logo.png** ✓ _(replace file in `public/` when Supervalue logo is ready; path can stay or become `/supervalue-logo.png`)_
+**/inno_logo.png** ✓ _(replace file in `public/` when SuperValue logo is ready; path can stay or become `/supervalue-logo.png`)_
 
 Favicon file (path or filename):  
 **/favicon.jpg** ✓ _(unchanged until new asset provided)_
 
 Social share image / OG image (path or filename):  
 **/og-image.jpg** ✓  
-Alt text: **Supervalue LLC — IT Consulting & Talent Sourcing**
+Alt text: **SuperValue LLC — IT Consulting & Talent Sourcing**
 
 ---
 
@@ -108,13 +108,13 @@ Our team operates across US time zones with experience supporting clients and ta
 
 ## 3. Company Story
 
-### Paragraph 1 — how Supervalue started
+### Paragraph 1 — how SuperValue started
 
-Supervalue LLC grew out of the same spirit that shaped our original engineering collective: a group of remote developers who believed great work happens when skilled people collaborate across borders, share ownership, and focus on outcomes—not office politics. What began as peer-to-peer project work evolved into a registered California LLC built to serve a broader need: businesses don't just need code written—they need the right strategy, the right people, and reliable delivery partners they can trust.
+SuperValue LLC grew out of the same spirit that shaped our original engineering collective: a group of remote developers who believed great work happens when skilled people collaborate across borders, share ownership, and focus on outcomes—not office politics. What began as peer-to-peer project work evolved into a registered California LLC built to serve a broader need: businesses don't just need code written—they need the right strategy, the right people, and reliable delivery partners they can trust.
 
 ### Paragraph 2 — mission / what you do today
 
-Today, Supervalue LLC provides **IT consulting and talent sourcing** for organizations that want practical technology outcomes without enterprise overhead. We help clients clarify requirements, place vetted technical talent, and deliver software with the same craftsmanship our founding team brought to web, mobile, cloud, and AI projects. From Ridgecrest to Brooklyn and across remote teams worldwide, we combine human engineering judgment with modern tools to solve real business problems.
+Today, SuperValue LLC provides **IT consulting and talent sourcing** for organizations that want practical technology outcomes without enterprise overhead. We help clients clarify requirements, place vetted technical talent, and deliver software with the same craftsmanship our founding team brought to web, mobile, cloud, and AI projects. From Ridgecrest to Brooklyn and across remote teams worldwide, we combine human engineering judgment with modern tools to solve real business problems.
 
 ### Who we serve (target clients):
 
@@ -124,9 +124,9 @@ Today, Supervalue LLC provides **IT consulting and talent sourcing** for organiz
 - **Enterprise teams** seeking specialized contractors, architecture reviews, or surge capacity  
 - **Agencies & product owners** looking for a dependable sourcing and delivery partner  
 
-### What makes Supervalue different:
+### What makes SuperValue different:
 
-- **Registered LLC, transparent operations** — Supervalue LLC is a California-registered company committed to clear communication and professional standards.  
+- **Registered LLC, transparent operations** — SuperValue LLC is a California-registered company committed to clear communication and professional standards.  
 - **Engineering-led consulting** — Our leadership includes hands-on architects and senior engineers—not generic account managers reading slide decks.  
 - **Built by a proven remote team** — Founded by practitioners who shipped production pages, services, portfolios, and client-facing systems together as a distributed unit.  
 - **Consulting + staffing + delivery in one partner** — Strategy, sourcing, and execution under one roof instead of juggling multiple vendors.  
@@ -153,7 +153,7 @@ Registered business address (if public):
 _(Use registered agent address on legal pages if different from service offices.)_
 
 Use Google Analytics (yes / no):  
-**Yes** — new Supervalue GA4 property recommended before launch
+**Yes** — new SuperValue GA4 property recommended before launch
 
 Cookie consent banner needed (yes / no):  
 **Yes** — recommended for US state privacy laws and international visitors
@@ -168,14 +168,14 @@ Form consent text:
 *"We will never sell your contact information. By submitting this form, you agree to our [Privacy Policy](/privacy) and consent to be contacted about your inquiry."*
 
 Copyright (Footer):  
-**© {year} Supervalue LLC. All rights reserved.**
+**© {year} SuperValue LLC. All rights reserved.**
 
 ---
 
 ## 8. Careers
 
 Hiring message or CTA:  
-**Join Supervalue — build with a remote-first engineering team that values craft, clarity, and client outcomes.**
+**Join SuperValue — build with a remote-first engineering team that values craft, clarity, and client outcomes.**
 
 Careers email or application link:  
 **careers@supervalues.com**
@@ -191,7 +191,7 @@ Open roles (list or "talent network only"):
 
 ## 9. FAQ
 
-**Q: What services does Supervalue LLC provide?**  
+**Q: What services does SuperValue LLC provide?**  
 **A:** We offer IT consulting (strategy, architecture, transformation advisory) and talent sourcing (contract staffing, dedicated teams, direct hire support), plus software delivery when you need a partner who can both advise and build.
 
 **Q: How quickly can you provide candidates or a team?**  
@@ -215,22 +215,22 @@ Open roles (list or "talent network only"):
 
 | Location | Replace with |
 |----------|--------------|
-| Root title | `Supervalue LLC \| IT Consulting & Talent Sourcing` |
-| Title template | `%s \| Supervalue LLC` |
-| Meta description | `Supervalue LLC helps businesses with IT consulting, vetted talent sourcing, and software delivery. US-based, remote-ready, engineering-led.` |
-| Projects page title | `Case Studies \| Supervalue LLC` |
-| Projects description | `Explore Supervalue LLC case studies across fintech, healthcare, retail, and software delivery engagements.` |
-| 404 page title | `404 - Not Found \| Supervalue LLC` |
-| OG siteName | `Supervalue LLC` |
-| OG image alt | `Supervalue LLC — IT Consulting & Talent Sourcing` |
-| Twitter handle | `@SupervalueLLC` _(when account created)_ |
+| Root title | `SuperValue LLC \| IT Consulting & Talent Sourcing` |
+| Title template | `%s \| SuperValue LLC` |
+| Meta description | `SuperValue LLC helps businesses with IT consulting, vetted talent sourcing, and software delivery. US-based, remote-ready, engineering-led.` |
+| Projects page title | `Case Studies \| SuperValue LLC` |
+| Projects description | `Explore SuperValue LLC case studies across fintech, healthcare, retail, and software delivery engagements.` |
+| 404 page title | `404 - Not Found \| SuperValue LLC` |
+| OG siteName | `SuperValue LLC` |
+| OG image alt | `SuperValue LLC — IT Consulting & Talent Sourcing` |
+| Twitter handle | `@SuperValueLLC` _(when account created)_ |
 | Hero headline | `The Right IT Talent. The Right Strategy. Delivered.` |
-| Hero subtext | `Supervalue LLC partners with businesses to source vetted IT professionals and deliver strategic consulting—from staff augmentation to full project delivery.` |
-| Footer tagline | `Supervalue LLC connects businesses with vetted IT talent and strategic consulting—built for scale, compliance, and long-term partnerships.` |
+| Hero subtext | `SuperValue LLC partners with businesses to source vetted IT professionals and deliver strategic consulting—from staff augmentation to full project delivery.` |
+| Footer tagline | `SuperValue LLC connects businesses with vetted IT talent and strategic consulting—built for scale, compliance, and long-term partnerships.` |
 | CTA headline | `Ready to strengthen your IT team or strategy?` |
 | CTA subtext | `Schedule a consultation to discuss staffing, consulting, or project delivery. We'll match you with the right approach for your goals.` |
 | Inquiry types | IT Consulting · Staffing / Talent Sourcing · Software Project · Other |
-| Keywords | Supervalue LLC, IT consulting, IT staffing, talent sourcing, software development, dedicated teams, California |
+| Keywords | SuperValue LLC, IT consulting, IT staffing, talent sourcing, software development, dedicated teams, California |
 
 ---
 
@@ -239,7 +239,7 @@ Open roles (list or "talent network only"):
 **Services section headline:** Modern Solutions for Complex IT Challenges  
 **Services subtext:** From advisory engagements to embedded engineering teams, we help you move faster with the right people and the right plan.
 
-**About section headline:** About Supervalue  
+**About section headline:** About SuperValue  
 **About subtext:** Strategic IT partnerships built on trust. We combine consulting clarity with delivery experience honed by a global engineering team.
 
 **Projects section headline:** Proven Results Across Industries  
@@ -249,7 +249,7 @@ Open roles (list or "talent network only"):
 
 ## Notes / anything else
 
-- Original InnoTech/ByteWave repo assets (`/favicon.jpg`, `/inno_logo.png`) remain until Supervalue-branded files are supplied.  
+- Original InnoTech/ByteWave repo assets (`/favicon.jpg`, `/inno_logo.png`) remain until SuperValue-branded files are supplied.  
 - Remove stray files `1.md`, `2.md` before launch.  
 - Fix contact form submission bug in `InquiryForm.jsx` before go-live.  
 - Add `public/` assets and create `/privacy` + `/terms` pages using governing law: California.  
@@ -258,4 +258,4 @@ Open roles (list or "talent network only"):
 
 ---
 
-*Content draft prepared for Supervalue LLC site rebrand. See `Report.md` for full technical audit.*
+*Content draft prepared for SuperValue LLC site rebrand. See `Report.md` for full technical audit.*

@@ -4,7 +4,7 @@ import { ExternalLink, Github, Code, Layout, Smartphone, Database } from "lucide
 
 export const metadata = {
   title: "Case Studies",
-  description: "Explore Supervalue LLC case studies across fintech, healthcare, retail, and software delivery engagements.",
+  description: "Explore SuperValue LLC case studies across fintech, healthcare, retail, and software delivery engagements.",
 };
 
 import { projects as projectData } from "../../../libs/data/project";
@@ -37,7 +37,7 @@ export default function ProjectsPage() {
               Proven <span className="text-accent">Results</span> Across Industries
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              A selection of engagements spanning fintech, healthcare, retail, and platform engineering—showcasing how Supervalue LLC delivers consulting, staffing, and software outcomes.
+              A selection of engagements spanning fintech, healthcare, retail, and platform engineering—showcasing how SuperValue LLC delivers consulting, staffing, and software outcomes.
             </p>
           </header>
         </div>
@@ -138,7 +138,7 @@ export default function ProjectsPage() {
                 href="/contact"
                 className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-4 text-sm font-bold text-white transition-transform hover:scale-105"
               >
-                Contact Supervalue LLC
+                Contact SuperValue LLC
               </Link>
             </div>
           </div>
